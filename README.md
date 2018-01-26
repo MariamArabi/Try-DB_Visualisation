@@ -17,6 +17,8 @@ Visualisation des éléments absorbé par une plante lors de sa croissance
 ### Traits intéressants par type
 
 [Lien pour sélectionner les traits](https://www.try-db.org/de/TraitSearchAdv1.php)
+[Lien pour voir quelles espèces correspondent à ses traits](https://www.try-db.org/de/InfoByTrait2.php)
+
 
 - - [ ] **eau**
     - 2000 : Fine root water uptake rate per fine root surface area
@@ -29,6 +31,8 @@ Visualisation des éléments absorbé par une plante lors de sa croissance
     - 2248 : Absorptive fine root phosphorus (P) uptake rate per absorptive fine root surface area
     Fine root phosphorus (P) uptake rate per fine root dry mass
     - 390 : Root phosphorus (P) uptake rate per root dry mass
+    - 1466 : Root nitrogen (N) uptake per ground area per year
+
 
 ### Traits intéressants  par partie de la plante
 
