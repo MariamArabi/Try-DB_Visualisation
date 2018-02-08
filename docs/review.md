@@ -1,5 +1,6 @@
 # Critique d'un autre groupe
-Le projet critiqué est GBGH.
+Le projet critiqué est [GBGH](https://github.com/Weegle99/gbgh).
+
 
 ## Description
 ★ ★ ★ ★ ☆
