@@ -3,7 +3,7 @@ Le projet critiqué est [GBGH](https://github.com/Weegle99/gbgh).
 
 
 ## Description
-★ ★ ★ ★ ☆
+★ ★ ★ ★ ★
 
 Le problème est clairement décrit
 
@@ -21,5 +21,6 @@ Deux défits majeurs : pouvoir avoir accès aux données de prises de vélos de 
 - Description ★ ★ ★ ★ ★
 - Visualisation ★ ★ ★ ☆ ☆
 - Faisabilité ★ ★ ★ ★ ☆
+- *Moyenne* : ★ ★ ★ ★ ☆
 
 Le projet est ambitieux, ludique et réalisable, plus de travail devrai être fait au niveau de la manière dont sera visualisé les données.
