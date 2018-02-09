@@ -18,8 +18,16 @@ var z = d3.scaleOrdinal()
 d3.csv("bdd/nutriments.csv", function(d, i, columns) {
       console.log(d);
       for (i = 4, t = 0; i < columns.length; ++i) t += d[columns[i]] = +d[columns[i]];
-      d.total = t;
-      return d;
+      return {
+          ScientificName: d.ScientificName,
+          PlantPartHarvested: d.PlantPartHarvested,
+          CropCategory: d.CropCategory,
+          AvMoisture: +d.AvMoisture,
+          AvN_dry: +d.AvN_dry,
+          AvP_dry: +d.AvP_dry,
+          AvK_dry: +d.AvK_dry,
+          total: t
+        }
     }, function(error, data) {
       if (error) throw error;
       console.log(data);
