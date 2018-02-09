@@ -1,406 +1,406 @@
-ScientificName, PlantPartHarvested, CropCategory, AvMoisture%, AvN%(dry), AvP%(dry), AvK%(dry)
-Lactuca sativa var. longifolia, Head, Vegetable, 94.00, 4.27, 0.75, 6.67
-Beta vulgaris, Crown and aboveground biomass, Fiber and miscellaneous, 83.03, 2.43, 0.23, 5.79
-Beta vulgaris, Aboveground biomass, Fiber and miscellaneous, 82.10, 2.46, 0.22, 5.79
-Raphanus sativus, Root, Vegetable, 94.00, 2.93, 0.47, 4.67
-Lactuca sativa, Head, Vegetable, 94.80, 3.81, 0.48, 4.52
-Rheum rhabarbarum, Fruit, Vegetable, 93.61, 2.25, 0.22, 4.51
-Lolium arundinaceum, Aboveground biomass, Forage, 73.20, 3.38, 0.39, 4.48
-Solanum lycopersicum var. lycopersicum, Fruit, Vegetable, 94.00, 2.56, 0.47, 4.28
-Solanum tuberosum, Aboveground biomass, Vegetable, 48.90, 2.24, 0.20, 3.95
-Colocasia esculenta, Corm, Vegetable, 82.00, 1.78, 0.33, 3.94
-Brassica oleracea var. gongylodes, Stem, Vegetable, 91.00, 3.02, 0.51, 3.89
-Nicotiana tabacum, Stalk and leaf, Fiber and miscellaneous, 25.00, 4.00, 0.31, 3.86
-Dactylis glomerata, Aboveground biomass, Forage, 9.83, 1.44, 0.34, 3.83
-Dactylis glomerata, Aboveground biomass, Forage, 12.48, 2.39, 0.46, 3.82
-Cucurbita pepo, Fruit, Vegetable, 86.00, 0.91, 0.26, 3.71
-Dactylis glomerata, Aboveground biomass, Forage, 10.45, 1.25, 0.25, 3.69
-Cucurbita maxima, Fruit, Vegetable, 91.00, 3.56, 0.42, 3.67
-Phalaris arundinacea, Aboveground biomass, Forage, 75.80, 2.42, 0.33, 3.64
-Brassica oleracea var. italica, Stem and floral parts, Vegetable, 89.70, 5.65, 0.75, 3.55
-Dactylis glomerata, Aboveground biomass, Forage, 73.16, 2.30, 0.41, 3.42
-Bromus inermis, Aboveground biomass, Forage, 8.80, 3.15, 0.46, 3.41
-Medicago sativa, Aboveground biomass, Forage, 13.00, 3.22, 0.37, 3.39
-Phalaris arundinacea, Aboveground biomass, Forage, 76.25, 2.53, 0.40, 3.31
-Brassica oleracea var.gemmifera, Bud, Vegetable, 86.60, 4.98, 0.51, 3.25
-Medicago sativa, Aboveground biomass, Forage, 9.20, 2.74, 0.31, 3.25
-Brassica oleracea var. botrytis, Inflorescence, Vegetable, 90.88, 4.43, 0.66, 3.22
-Pennisetum purpureum, Aboveground biomass, Forage, 70.45, 0.68, 0.30, 3.18
-Raphanus sativus, Root, Vegetable, 94.00, 1.87, 0.45, 3.17
-Brassica oleracea, Head (terminal bud and leaves), Vegetable, 91.70, 3.03, 0.38, 3.16
-Bromus inermis, Aboveground biomass, Forage, 67.60, 2.18, 0.32, 3.16
-Trifolium incarnatum, Aboveground biomass, Forage, 80.78, 2.74, 0.28, 3.10
-Brassica rapa var. rapa, Aboveground biomass, Forage, 86.53, 3.30, 0.42, 3.02
-Phalaris arundinacea, Aboveground biomass, Forage, 10.97, 1.70, 0.28, 2.99
-Lotus corniculatus, Aboveground biomass, Forage, 78.00, 2.63, 0.27, 2.98
-Saccharum sp., Leaf, Fiber and miscellaneous, 73.83, 0.87, 0.24, 2.96
-Melilotus sp., Aboveground biomass, Forage, 80.30, 3.47, 0.44, 2.95
-Medicago sativa, Aboveground biomass, Forage, 74.60, 2.86, 0.38, 2.95
-Brassica oleracea, Leaf and petiole, Vegetable, 93.00, 3.09, 0.49, 2.93
-Medicago sativa, Aboveground biomass, Forage, 75.05, 2.80, 0.27, 2.89
-Medicago sativa, Aboveground biomass, Forage, 75.30, 2.53, 0.40, 2.88
-Panicum virgatum, Aboveground biomass, Forage, 67.27, 1.64, 0.22, 2.85
-Medicago sativa, Aboveground biomass, Forage, 12.95, 3.25, 0.27, 2.84
-Dactylis glomerata, Aboveground biomass, Forage, 10.83, 1.71, 0.25, 2.80
-Lotus corniculatus, Aboveground biomass, Forage, 80.13, 3.16, 0.24, 2.79
-Cucurbita pepo, Fruit, Vegetable, 90.67, 2.59, 0.39, 2.78
-Trifolium incarnatum, Aboveground biomass, Forage, 11.75, 2.65, 0.22, 2.76
-Allium cepa, Leaf, Vegetable, 92.00, 4.00, 0.38, 2.75
-Brassica rapa var. rapa, Root, Vegetable, 91.06, 2.24, 0.32, 2.73
-Brassica oleracea, Head (terminal bud and leaves), Vegetable, 90.80, 3.45, 0.35, 2.73
-Medicago sativa, Aboveground biomass, Forage, 76.18, 3.35, 0.29, 2.72
-Medicago sativa, Aboveground biomass, Forage, 75.08, 3.16, 0.29, 2.71
-Phaseolus sp., Seed, Vegetable, 11.40, 4.22, 0.54, 2.69
-Elymus trachycaulus, Aboveground biomass, Forage, 8.93, 1.40, 0.25, 2.68
-Poaceae, Aboveground biomass, Forage, 8.00, 1.38, 0.27, 2.67
-Cucurbita maxima, Fruit, Vegetable, 88.00, 2.67, 0.18, 2.67
-Brassica oleracea, Leaf, Vegetable, 85.00, 3.52, 0.37, 2.67
-Cucurbita moschata, Fruit, Vegetable, 85.00, 1.07, 0.22, 2.67
-Tripsacum dactyloides, Aboveground biomass, Forage, 10.85, 1.69, 0.40, 2.64
-Dactylis glomerata, Aboveground biomass, Forage, 74.13, 2.37, 0.18, 2.64
-Capsicum annuum var. annuum, Fruit, Vegetable, 84.00, 2.00, 0.28, 2.63
-Fagopyrum sp., Straw, Cereal and oil, 11.32, 0.79, 0.10, 2.62
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 77.00, 1.64, 0.21, 2.61
-Medicago sativa, Aboveground biomass, Forage, 76.50, 3.21, 0.28, 2.61
-Trifolium hybridum, Aboveground biomass, Forage, 75.87, 2.50, 0.26, 2.58
-Trifolium hybridum, Aboveground biomass, Forage, 76.40, 2.51, 0.25, 2.58
-Cucumis melo, Fruit, Tree and fruit, 88.33, 0.91, 0.16, 2.58
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 78.25, 1.85, 0.23, 2.57
-Trifolium hybridum, Aboveground biomass, Forage, 10.35, 2.36, 0.28, 2.55
-Trifolium hybridum, Aboveground biomass, Forage, 11.00, 2.42, 0.28, 2.55
-Lolium perenne ssp. perenne, Aboveground biomass, Forage, 76.88, 1.86, 0.28, 2.55
-Phleum pratense, Aboveground biomass, Forage, 74.45, 2.41, 0.43, 2.54
-Medicago sativa, Aboveground biomass, Forage, 12.00, 3.17, 0.26, 2.54
-Sorghum bicolor, Aboveground biomass, Forage, 76.85, 1.37, 0.24, 2.51
-Vica sativa, Aboveground biomass, Forage, 75.00, 3.00, 0.35, 2.51
-Trifolium pratense, Aboveground biomass, Forage, 80.15, 3.10, 0.38, 2.49
-Trifolium hybridum, Aboveground biomass, Forage, 12.56, 2.27, 0.25, 2.48
-Medicago sativa, Aboveground biomass, Forage, 9.90, 2.62, 0.35, 2.48
-Medicago sativa, Aboveground biomass, Forage, 10.30, 2.97, 0.19, 2.47
-Medicago sativa, Aboveground biomass, Forage, 9.30, 2.74, 0.26, 2.47
-Beta vulgaris, Root, Vegetable, 87.46, 2.15, 0.32, 2.46
-Medicago sativa, Aboveground biomass, Forage, 11.34, 3.39, 0.34, 2.44
-Trofolium repens, Aboveground biomass, Forage, 10.82, 3.32, 0.32, 2.43
-Daucus carota ssp. sativus, Root, Vegetable, 88.00, 1.51, 0.33, 2.43
-Avena sativa, Aboveground biomass, Forage, 14.20, 1.47, 0.35, 2.41
-Persea americana, Fruit, Tree and fruit, 79.73, 1.26, 0.19, 2.41
-Trifolium pratense, Aboveground biomass, Forage, 77.50, 2.92, 0.29, 2.40
-Vigna unguiculata ssp. unguiculata, Aboveground biomass, Forage, 9.60, 2.97, 0.32, 2.39
-Agrostis alba, Aboveground biomass, Forage, 8.00, 2.21, 0.15, 2.39
-Avena sativa, Straw, Cereal and oil, 9.68, 0.71, 0.09, 2.39
-Lolium arundinaceum, Aboveground biomass, Forage, 8.40, 2.31, 0.32, 2.36
-Lolium arundinaceum, Aboveground biomass, Forage, 7.90, 3.25, 0.51, 2.36
-Medicago sativa, Aboveground biomass, Forage, 10.58, 3.05, 0.23, 2.34
-Abelmoschus esculentus, Fruit, Vegetable, 88.00, 2.67, 0.53, 2.33
-Bromus inermis, Aboveground biomass, Forage, 71.30, 1.89, 0.28, 2.33
-Persea americana, Fruit, Tree and fruit, 74.27, 1.23, 0.16, 2.33
-Pennisetum purpureum, Aboveground biomass, Forage, 79.80, 0.89, 0.44, 2.32
-Bromus sp., Aboveground biomass, Forage, 12.90, 1.19, 0.35, 2.32
-Persea americana, Fruit, Tree and fruit, 72.56, 1.23, 0.15, 2.31
-Dioscorea sp., Tuber, Vegetable, 74.00, 1.11, 0.25, 2.31
-Bromus inermis, Aboveground biomass, Forage, 6.83, 0.98, 0.19, 2.31
-Phaseolus vulgaris, Fruit, Vegetable, 87.75, 3.00, 0.50, 2.30
-Carica papaya, Fruit, Tree and fruit, 88.83, 0.87, 0.04, 2.30
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 82.05, 2.55, 0.41, 2.28
-Medicago sativa, Aboveground biomass, Forage, 78.34, 3.49, 0.34, 2.27
-Vica villosa, Aboveground biomass, Forage, 78.25, 3.75, 0.33, 2.25
-Trifolium repens, Aboveground biomass, Forage, 9.73, 3.09, 0.35, 2.25
-Medicago sativa. Phleum pratense, Aboveground biomass, Forage, 78.08, 3.36, 0.37, 2.24
-Medicago Sativa. Phleum pratense, Aboveground biomass, Forage, 78.08, 3.36, 0.37, 2.24
-Vica sativa, Aboveground biomass, Forage, 12.20, 2.60, 0.36, 2.24
-Avena sativa, Straw, Cereal and oil, 10.20, 0.73, 0.10, 2.23
-Capsicum annuum var. annuum, Fruit, Vegetable, 91.00, 1.42, 0.31, 2.22
-Lathyrus sylvestris, Aboveground biomass, Forage, 73.00, 4.22, 0.37, 2.22
-Trifolimu repens. Phleum pratense, Aboveground biomass, Forage, 70.60, 3.17, 0.20, 2.22
-Phleum pratense. Trifolium repens, Aboveground biomass, Forage, 70.60, 3.17, 0.20, 2.22
-Bromus inermis, Aboveground biomass, Forage, 10.48, 2.03, 0.23, 2.20
-Agrostis alba, Aboveground biomass, Forage, 73.57, 2.03, 0.38, 2.20
-Bromus sp., Aboveground biomass, Forage, 64.40, 2.14, 0.29, 2.19
-Prunus armeniaca, Fruit, Tree and fruit, 86.35, 1.64, 0.14, 2.17
-Tetragonia tetragonioides, Leaf, Vegetable, 94.00, 4.00, 0.47, 2.17
-Medicago sativa. Phleum pratense, Aboveground biomass, Forage, 10.37, 2.17, 0.21, 2.16
-Medicago Sativa. Phleum pratense, Aboveground biomass, Forage, 10.37, 2.17, 0.21, 2.16
-Trofolium repens, Aboveground biomass, Forage, 8.90, 2.53, 0.25, 2.16
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 7.83, 1.78, 0.29, 2.15
-Avena sativa, Aboveground biomass, Forage, 73.43, 1.45, 0.34, 2.15
-Cucurbita pepo var. melopepo, Fruit, Vegetable, 93.00, 2.74, 0.51, 2.14
-Capsicum annuum var. annuum, Fruit, Vegetable, 92.50, 2.18, 0.38, 2.14
-Poa sp., Aboveground biomass, Forage, 64.30, 2.35, 0.29, 2.14
-Cynodon dactylon, Aboveground biomass, Forage, 75.00, 2.75, 0.23, 2.13
-Medicago sativa, Aboveground biomass, Forage, 9.65, 2.79, 0.26, 2.12
-Paspalum notatum, Aboveground biomass, Forage, 69.70, 1.32, 0.17, 2.06
-Psidium guajava, Fruit, Tree and fruit, 86.10, 0.94, 0.18, 2.04
-Helianthus tuberosus, Tuber, Vegetable, 80.07, 1.52, 0.30, 2.02
-Poa pratensis, Aboveground biomass, Forage, 65.35, 2.12, 0.28, 2.01
-Eriobotrya japonica, Fruit, Tree and fruit, 86.73, 0.52, 0.20, 2.00
-Solanum tuberosum, Tuber, Vegetable, 77.20, 1.61, 0.25, 2.00
-Poa pratensis, Aboveground biomass, Forage, 69.38, 2.30, 0.31, 1.99
-Medicago sativa, Aboveground biomass, Forage, 15.25, 2.39, 0.22, 1.99
-Bromus inermis, Aboveground biomass, Forage, 12.40, 1.97, 0.28, 1.99
-Nicotiana tabacum, Leaf, Fiber and miscellaneous, 20.00, 2.13, 0.27, 1.99
-Citrus grandis, Fruit, Tree and fruit, 89.10, 1.12, 0.16, 1.98
-Trifolium pratense, Aboveground biomass, Forage, 74.27, 2.42, 0.28, 1.98
-Poa sp., Aboveground biomass, Forage, 70.70, 2.00, 0.31, 1.97
-Panicum virgatum, Aboveground biomass, Forage, 58.07, 0.82, 0.15, 1.97
-Poaceae, Aboveground biomass, Forage, 72.50, 2.50, 0.26, 1.97
-Fragaria X ananassa var. ananassa, Fruit, Tree and fruit, 91.28, 1.25, 0.21, 1.97
-Poa pratensis, Aboveground biomass, Forage, 70.47, 2.60, 0.40, 1.97
-Trifolium pratense, Aboveground biomass, Forage, 73.58, 2.37, 0.28, 1.96
-Trifolium repens. Poaceae, Aboveground biomass, Forage, 11.25, 2.92, 0.23, 1.96
-Poaceae. Trifolium repens, Aboveground biomass, Forage, 11.25, 2.92, 0.23, 1.96
-Lolium arundinaceum, Aboveground biomass, Forage, 12.50, 1.71, 0.30, 1.96
-Lolium arundinaceum, Aboveground biomass, Forage, 8.00, 3.14, 0.26, 1.96
-Actinidia deliciosa, Fruit, Tree and fruit, 83.05, 0.93, 0.24, 1.96
-Melilotus sp., Aboveground biomass, Forage, 70.70, 2.86, 0.21, 1.96
-Poa sp., Aboveground biomass, Forage, 68.85, 2.91, 0.43, 1.95
-Melilotus sp., Aboveground biomass, Forage, 72.80, 3.42, 0.25, 1.95
-Melilotus sp., Aboveground biomass, Forage, 65.20, 3.44, 0.25, 1.95
-Setaria italica, Aboveground biomass, Forage, 72.45, 1.59, 0.18, 1.94
-Helianthus annuus, Stover, Cereal and oil, 13.30, 0.86, 0.11, 1.94
-Helianthus annuus, Stover, Cereal and oil, 13.30, 0.86, 0.11, 1.94
-Poa pratensis, Aboveground biomass, Forage, 10.95, 1.60, 0.28, 1.92
-Cyamopsis tetragonoloba, Aboveground biomass, Forage, 81.00, 2.34, 0.17, 1.92
-Festuca or Lolium sp., Aboveground biomass, Forage, 71.00, 2.36, 0.37, 1.92
-Medicago sativa, Aboveground biomass, Forage, 9.35, 2.86, 0.29, 1.92
-Cyamopsis tetragonoloba, Aboveground biomass, Forage, 80.80, 1.90, 0.16, 1.91
-Trifolium pratense, Aboveground biomass, Forage, 12.53, 2.39, 0.31, 1.91
-Medicago sativa. Bromus inermis, Aboveground biomass, Forage, 11.58, 2.42, 0.27, 1.90
-Medicago Sativa. Bromus inermis, Aboveground biomass, Forage, 11.58, 2.42, 0.27, 1.90
-Agrostis alba, Aboveground biomass, Forage, 8.44, 1.31, 0.22, 1.89
-Trifolium pratense, Aboveground biomass, Forage, 13.95, 2.51, 0.26, 1.89
-Lotus corniculatus, Aboveground biomass, Forage, 9.97, 2.52, 0.23, 1.89
-Poaceae, Aboveground biomass, Forage, 75.10, 1.84, 0.32, 1.88
-Daucus carota ssp. sativus, Stem and leaves, Vegetable, 83.83, 2.35, 0.19, 1.88
-Trifolium pratense, Aboveground biomass, Forage, 13.55, 2.43, 0.25, 1.86
-Capsicum annuum var. annuum, Fruit, Vegetable, 86.00, 2.29, 0.33, 1.86
-Phaseolus lunatus, Seed, Vegetable, 9.98, 3.59, 0.41, 1.85
-Phleum pratense, Aboveground biomass, Forage, 12.20, 1.21, 0.23, 1.83
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 70.00, 0.88, 0.21, 1.82
-Phleum pratense, Aboveground biomass, Forage, 11.96, 1.54, 0.22, 1.82
-Hordeum vulgare, Straw, Cereal and oil, 11.25, 0.69, 0.10, 1.79
-Melilotus sp., Aboveground biomass, Forage, 9.80, 2.58, 0.30, 1.78
-Medicago sativa, Aboveground biomass, Forage, 10.76, 2.81, 0.25, 1.78
-Opuntia sp., Fruit, Tree and fruit, 87.55, 0.94, 0.19, 1.77
-Syzygium jambos, Fruit, Tree and fruit, 93.00, 1.37, 0.11, 1.76
-Trifolium repens. Poaceae, Aboveground biomass, Forage, 8.50, 1.81, 0.22, 1.75
-Poaceae. Trifolium repens, Aboveground biomass, Forage, 8.50, 1.81, 0.22, 1.75
-LInum usitatissimum, Straw, Cereal and oil, 6.94, 1.11, 0.08, 1.74
-Pastinaca sativa, Root, Vegetable, 81.00, 1.01, 0.36, 1.74
-Cynodon dactylon, Aboveground biomass, Forage, 68.33, 1.74, 0.21, 1.74
-Agropyron sp., Aboveground biomass, Forage, 54.25, 1.87, 0.14, 1.72
-Poa sp., Aboveground biomass, Forage, 10.30, 1.76, 0.27, 1.72
-Malpighia emarginata, Fruit, Tree and fruit, 91.41, 0.75, 0.13, 1.70
-Poa pratensis, Aboveground biomass, Forage, 11.86, 1.01, 0.23, 1.70
-Melilotus sp., Aboveground biomass, Forage, 68.60, 2.99, 0.24, 1.70
-Phleum pratense, Aboveground biomass, Forage, 73.10, 1.92, 0.29, 1.69
-Phleum pratense, Aboveground biomass, Forage, 70.30, 1.87, 0.32, 1.69
-Phleum pratense, Aboveground biomass, Forage, 64.30, 1.55, 0.29, 1.69
-Phleum pratense, Aboveground biomass, Forage, 63.70, 1.63, 0.29, 1.69
-Phleum pratense, Aboveground biomass, Forage, 58.50, 1.34, 0.29, 1.69
-Agrostis alba, Aboveground biomass, Forage, 7.00, 1.50, 0.35, 1.69
-Phleum pratense, Aboveground biomass, Forage, 66.70, 1.70, 0.29, 1.69
-Phleum pratense, Aboveground biomass, Forage, 73.65, 1.07, 0.21, 1.68
-Artocarpus altilis, Fruit, Tree and fruit, 70.65, 0.58, 0.10, 1.67
-Melilotus sp., Aboveground biomass, Forage, 10.42, 2.65, 0.24, 1.65
-Melilotus sp., Aboveground biomass, Forage, 75.00, 2.87, 0.27, 1.65
-Thinopyrum intermedium, Aboveground biomass, Forage, 9.95, 1.30, 0.19, 1.65
-Zea mays ssp. mays, Stover, Vegetable, 9.40, 1.04, 0.10, 1.64
-Carissa macrocarpa, Fruit, Tree and fruit, 84.17, 0.51, 0.04, 1.64
-Bromus sp., Aboveground biomass, Forage, 8.93, 1.53, 0.16, 1.64
-Ribes sp., Fruit, Tree and fruit, 87.87, 1.16, 0.22, 1.63
-Pennisetum glaucum, Aboveground biomass, Forage, 78.40, 1.54, 0.26, 1.63
-Phleum pratense, Aboveground biomass, Forage, 9.48, 1.20, 0.17, 1.63
-Citrus X paradisi, Fruit, Tree and fruit, 90.76, 1.09, 0.08, 1.62
-Prunus persica, Fruit, Tree and fruit, 87.83, 0.95, 0.10, 1.60
-Phaseolus vulgaris, Straw, Vegetable, 12.30, 1.27, 0.15, 1.59
-Trifolium pratense. Poaceae, Aboveground biomass, Forage, 10.80, 2.66, 0.23, 1.59
-Poaceae. Trifolium pratense, Aboveground biomass, Forage, 10.80, 2.66, 0.23, 1.59
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 74.50, 1.41, 0.30, 1.58
-Hordeum vulgare, Aboveground biomass, Forage, 79.65, 2.20, 0.37, 1.58
-Morus nigra, Fruit, Tree and fruit, 87.68, 1.87, 0.31, 1.57
-Phleum pratense, Aboveground biomass, Forage, 69.60, 0.96, 0.18, 1.57
-Citrus X paradisi, Fruit, Tree and fruit, 90.48, 1.16, 0.08, 1.55
-Trifolium pratense, Aboveground biomass, Forage, 11.70, 2.46, 0.28, 1.55
-Hibiscus sabdariffa, Fruit, Tree and fruit, 86.58, 1.14, 0.28, 1.55
-Prunus persica var. nectarina, Fruit, Tree and fruit, 86.28, 1.10, 0.12, 1.55
-Beta vulgaris, Root, Fiber and miscellaneous, 79.28, 1.05, 0.22, 1.54
-Dimocarpus longan, Fruit, Tree and fruit, 82.75, 1.22, 0.12, 1.54
-Musa sp., Fruit, Tree and fruit, 74.26, 0.64, 0.08, 1.54
-Beta vulgaris, Crown and root, Fiber and miscellaneous, 80.30, 1.34, 0.24, 1.52
-Zea mays ssp. mays, Stover, Cereal and oil, 12.73, 0.97, 0.10, 1.52
-Poa pratensis, Aboveground biomass, Forage, 7.90, 1.42, 0.27, 1.52
-Psidium cattleianum, Fruit, Tree and fruit, 80.66, 0.48, 0.14, 1.51
-Citrus X paradisi, Fruit, Tree and fruit, 91.56, 1.04, 0.11, 1.50
-Zea mays ssp. mays, Stover, Cereal and oil, 13.30, 0.98, 0.10, 1.50
-Zea mays ssp. mays, Stover, Cereal and oil, 13.30, 0.98, 0.10, 1.50
-Citrus X paradisi, Fruit, Tree and fruit, 91.38, 1.02, 0.10, 1.50
-Medicago sativa. Dactylis glomerata, Aboveground biomass, Forage, 7.95, 2.14, 0.20, 1.49
-Medicago Sativa. Dactylis glomerata, Aboveground biomass, Forage, 7.95, 2.14, 0.20, 1.49
-Pisum sativum, Aboveground biomass, Forage, 10.93, 2.57, 0.27, 1.49
-Hordeum vulgare, Aboveground biomass, Forage, 11.28, 1.42, 0.26, 1.49
-Oryza sativa, Straw, Cereal and oil, 9.18, 0.71, 0.08, 1.48
-Annona muricata, Fruit, Tree and fruit, 81.16, 0.85, 0.14, 1.48
-Vigna unguiculata ssp. unguiculata, Seed, Vegetable, 85.00, 3.52, 0.52, 1.47
-Zea mays ssp. mays, Aboveground biomass, Forage, 76.87, 1.42, 0.24, 1.47
-Sorghum bicolor ssp. drummondii, Aboveground biomass, Forage, 76.60, 1.28, 0.30, 1.45
-Poaceae, Aboveground biomass, Forage, 10.90, 1.52, 0.22, 1.45
-Melilotus sp., Aboveground biomass, Forage, 70.80, 2.69, 0.24, 1.44
-Melilotus sp., Aboveground biomass, Forage, 67.30, 2.69, 0.22, 1.44
-Musa X paradisiaca, Fruit, Tree and fruit, 65.28, 0.60, 0.10, 1.44
-Phaseolus vulgaris, Seed, Vegetable, 10.38, 4.03, 0.61, 1.43
-Lolium perenne ssp. perenne, Aboveground biomass, Forage, 12.74, 1.49, 0.20, 1.42
-Trifolium pratense. Poaceae, Aboveground biomass, Forage, 11.60, 2.27, 0.23, 1.42
-Poaceae. Trifolium pratense, Aboveground biomass, Forage, 11.60, 2.27, 0.23, 1.42
-Pisum sativum, Fruit, Vegetable, 88.00, 3.73, 0.44, 1.42
-Pisum sativum, Fruit, Vegetable, 88.00, 3.73, 0.44, 1.42
-Sambucus sp., Fruit, Tree and fruit, 79.80, 0.52, 0.19, 1.39
-Allium sativum, Bulb, Vegetable, 61.00, 2.63, 0.44, 1.38
-Arachis hypogaea, Aboveground biomass, Forage, 10.83, 1.92, 0.16, 1.38
-Arachis hypogaea, Aboveground biomass, Forage, 9.15, 1.75, 0.19, 1.38
-Arachis hypogaea, Aboveground biomass, Vegetable, 9.45, 1.64, 0.14, 1.38
-Citrus X paradisi, Fruit, Tree and fruit, 89.31, 0.75, 0.11, 1.38
-Citrus X paradisi, Fruit, Tree and fruit, 89.58, 1.35, 0.12, 1.37
-Poa sp., Aboveground biomass, Forage, 67.10, 1.17, 0.27, 1.37
-Kummerowia striata, Aboveground biomass, Forage, 11.00, 2.50, 0.29, 1.37
-Citrus sinensis, Fruit, Tree and fruit, 84.24, 1.18, 0.12, 1.37
-Rubus sp., Fruit, Tree and fruit, 85.64, 0.80, 0.15, 1.36
-Citrus sinensis, Fruit, Tree and fruit, 86.81, 1.25, 0.14, 1.35
-Andropogon sp., Aboveground biomass, Forage, 60.35, 1.35, 0.15, 1.35
-Annona reticulata, Fruit, Tree and fruit, 71.50, 0.95, 0.07, 1.34
-Poaceae, Aboveground biomass, Forage, 10.85, 1.54, 0.24, 1.34
-Citrullus lanatus, Fruit, Tree and fruit, 90.84, 1.11, 0.11, 1.33
-Poaceae, Aboveground biomass, Forage, 71.80, 1.64, 0.23, 1.33
-Vigna unguiculata ssp. unguiculata, Seed, Vegetable, 10.65, 4.13, 0.53, 1.33
-Vigna radiata var. radiata, Seed, Vegetable, 10.23, 4.12, 0.40, 1.33
-Vicia faba, Fruit, Vegetable, 81.00, 4.72, 0.50, 1.32
-Citrus sinensis, Fruit, Tree and fruit, 87.14, 0.87, 0.09, 1.31
-Citrus sinensis, Fruit, Tree and fruit, 86.34, 1.22, 1.24, 1.31
-Allium cepa, Bulb, Vegetable, 86.00, 1.71, 0.31, 1.29
-Citrus reticulata, Fruit, Tree and fruit, 87.60, 0.81, 0.08, 1.27
-Avena sativa, Aboveground biomass, Forage, 10.24, 1.37, 0.24, 1.26
-Bromus sp., Aboveground biomass, Forage, 44.00, 1.02, 0.26, 1.25
-Prunus cerasus, Fruit, Tree and fruit, 86.13, 1.15, 0.11, 1.25
-Pisum sativum, Seed, Vegetable, 79.50, 4.35, 0.55, 1.24
-Pisum sativum, Seed (immature), Vegetable, 79.00, 4.50, 0.52, 1.24
-Pisum sativum, Seed, Vegetable, 79.00, 4.50, 0.52, 1.24
-Secale cereale, Aboveground biomass, Forage, 7.38, 1.21, 0.22, 1.24
-Cydonia oblonga, Fruit, Tree and fruit, 83.80, 0.40, 0.10, 1.22
-Triticum sp., Aboveground biomass, Forage, 11.30, 1.25, 0.20, 1.20
-Pisum sativum, Straw, Vegetable, 11.20, 1.34, 0.11, 1.20
-Pisum sativum, Straw, Vegetable, 11.20, 1.34, 0.11, 1.20
-Gossypium sp., Seed, Fiber and miscellaneous, 8.38, 3.77, 0.73, 1.18
-Triticum sp., Straw, Cereal and oil, 9.22, 0.64, 0.06, 1.17
-Triticum sp., Straw, Cereal and oil, 9.22, 0.64, 0.06, 1.17
-Prunus avium, Fruit, Tree and fruit, 81.38, 1.07, 0.10, 1.16
-Prunus sp., Fruit, Tree and fruit, 85.20, 0.85, 0.07, 1.16
-Citrus limon, Fruit, Tree and fruit, 87.20, 1.51, 0.12, 1.15
-Sorghum bicolor, Aboveground biomass, Forage, 75.20, 1.34, 0.19, 1.15
-Phaseolus lunatus, Straw, Vegetable, 10.95, 1.20, 0.14, 1.14
-Phaseolus vulgaris, Straw, Vegetable, 10.93, 1.16, 0.15, 1.14
-Ginkgo biloba, Fruit, Tree and fruit, 55.20, 1.54, 0.28, 1.14
-Pistacia vera, Nut, Tree and fruit, 3.87, 3.43, 0.52, 1.14
-Rubus sp., Fruit, Tree and fruit, 86.57, 1.08, 0.09, 1.13
-Ziziphus zizyphus, Fruit, Tree and fruit, 77.86, 0.87, 0.10, 1.13
-Eugenia uniflora, Fruit, Tree and fruit, 90.81, 1.39, 0.12, 1.12
-Ficus carica, Fruit, Tree and fruit, 79.11, 0.57, 0.07, 1.11
-Citrus sinensis, Fruit, Tree and fruit, 82.30, 1.18, 0.12, 1.11
-Glycine max, Aboveground biomass, Forage, 10.66, 2.57, 0.24, 1.11
-Lespedeza cuneata, Aboveground biomass, Forage, 10.00, 2.22, 0.25, 1.10
-Artocarpus heterophyllus, Fruit, Tree and fruit, 72.23, 0.85, 0.13, 1.09
-None, Aboveground biomass, Forage, 9.00, 1.30, 0.21, 1.08
-Phaseolus vulgaris, Seed, Vegetable, 10.75, 3.99, 0.44, 1.07
-Fortunella sp., Fruit, Tree and fruit, 81.70, 0.79, 0.10, 1.07
-Allium porrum, Bulb, Vegetable, 83.00, 1.41, 0.21, 1.06
-Glycine max, Aboveground biomass, Forage, 82.27, 2.93, 0.29, 1.06
-Pisum sativum, Seed, Vegetable, 10.45, 4.26, 0.48, 1.05
-Ipomoea batatas, Root, Vegetable, 68.85, 0.91, 0.15, 1.04
-Kummerowia striata, Aboveground biomass, Forage, 10.87, 2.26, 0.21, 1.04
-Zea mays ssp. mays, Aboveground biomass, Forage, 70.08, 1.30, 0.38, 1.04
-Kummerowia striata, Aboveground biomass, Forage, 8.00, 2.02, 0.18, 1.03
-Vitis sp., Fruit, Tree and fruit, 80.65, 0.57, 0.05, 1.02
-Castanea sativa, Fruit, Tree and fruit, 48.65, 0.75, 0.18, 1.01
-Lespedeza cuneata, Aboveground biomass, Forage, 5.80, 2.98, 0.27, 0.99
-Brassica sp., Seed, Cereal and oil, 8.93, 3.89, 0.62, 0.98
-Kummerowia stipulacea, Aboveground biomass, Forage, 9.00, 2.29, 0.24, 0.96
-Vitis vinifera, Fruit, Tree and fruit, 80.28, 0.57, 0.07, 0.95
-Litchi chinensis, Fruit, Tree and fruit, 81.76, 0.73, 0.17, 0.94
-Lespedeza cuneata, Aboveground biomass, Forage, 8.20, 2.42, 0.23, 0.93
-Annona squamosa, Fruit, Tree and fruit, 73.23, 1.23, 0.12, 0.92
-Arachis hypogaea, Aboveground biomass, Forage, 8.25, 2.33, 0.16, 0.92
-Pouteria sapota, Fruit, Tree and fruit, 62.43, 0.90, 0.07, 0.92
-Tamarindus indica, Fruit, Tree and fruit, 31.40, 0.65, 0.16, 0.92
-Festuca or Lolium sp., Aboveground biomass, Forage, 64.00, 0.61, 0.11, 0.90
-Phaseolus lunatus, Fruit, Vegetable, 71.00, 3.48, 0.50, 0.90
-Glycine max, Aboveground biomass, Forage, 10.27, 2.45, 0.28, 0.88
-Manilkara zapota, Fruit, Tree and fruit, 78.00, 0.32, 0.05, 0.88
-Diospyros virginiana, Fruit, Tree and fruit, 64.40, 0.36, 0.07, 0.87
-Citrus aurantiifolia, Fruit, Tree and fruit, 88.26, 0.95, 0.15, 0.87
-Glycine max, Aboveground biomass, Forage, 75.80, 2.64, 0.29, 0.87
-Lens culinaris, Seed, Vegetable, 11.33, 4.36, 0.43, 0.86
-Mangifera indica, Fruit, Tree and fruit, 81.71, 0.45, 0.06, 0.85
-Castanea crenata, Fruit, Tree and fruit, 61.41, 0.93, 0.19, 0.85
-LInum usitatissimum, Seed, Cereal and oil, 6.14, 3.70, 0.57, 0.84
-Phoenix dactylifera, Fruit, Tree and fruit, 22.50, 0.41, 0.05, 0.84
-Ananas comosus, Fruit, Tree and fruit, 86.50, 0.46, 0.05, 0.84
-Diospyros kaki, Fruit, Tree and fruit, 80.32, 0.47, 0.09, 0.82
-Cocos nucifera, Fruit, Tree and fruit, 67.62, 1.13, 0.31, 0.81
-Melilotus sp., Aboveground biomass, Forage, 8.95, 1.82, 0.19, 0.80
-Castanea mollissima, Fruit, Tree and fruit, 43.95, 1.20, 0.17, 0.80
-Zizania palustris, Straw, Cereal and oil, 9.20, 0.81, 0.11, 0.79
-Glycine max, Seed, Vegetable, 73.00, 5.33, 0.22, 0.78
-None, Aboveground biomass, Forage, 11.80, 1.58, 0.11, 0.77
-Prunus dulcis, Seed, Tree and fruit, 4.42, 3.34, 0.54, 0.77
-Carthamus tinctorius, Seed, Cereal and oil, 7.60, 2.67, 0.60, 0.75
-Malus sp., Fruit, Tree and fruit, 81.78, 0.34, 0.05, 0.75
-Quercus sp., Fruit, Tree and fruit, 27.90, 1.36, 0.11, 0.75
-Helianthus annuus, Fruit, Cereal and oil, 7.36, 3.13, 0.62, 0.73
-Sorghum bicolor, Stover, Cereal and oil, 8.13, 0.67, 0.13, 0.73
-Helianthus annuus, Fruit, Cereal and oil, 7.36, 2.99, 0.63, 0.72
-Lespedeza cuneata, Aboveground biomass, Forage, 5.40, 2.75, 0.26, 0.69
-Cocos nucifera, Fruit, Tree and fruit, 46.99, 1.01, 0.21, 0.67
-Bertholletia excelsa, Nut, Tree and fruit, 3.34, 2.37, 0.62, 0.62
-Hordeum vulgare, Floret, Cereal and oil, 10.77, 1.61, 0.38, 0.58
-Vaccinium sp., Fruit, Tree and fruit, 84.61, 0.70, 0.06, 0.58
-X Triticosecale rimpaui, Caryopsis, Cereal and oil, 10.95, 2.45, 0.34, 0.57
-Arachis hypogaea, Fruit, Vegetable, 6.82, 4.25, 0.35, 0.56
-Juglans nigra, Nut, Tree and fruit, 4.36, 4.07, 0.49, 0.55
-Hordeum vulgare, Floret, Cereal and oil, 11.72, 2.11, 0.42, 0.54
-Vaccinium macrocarpon, Fruit, Tree and fruit, 86.54, 0.46, 0.07, 0.53
-Juglans regia, Nut, Tree and fruit, 3.65, 2.37, 0.33, 0.52
-Secale cereale, Caryopsis, Cereal and oil, 11.88, 2.14, 0.38, 0.52
-Fagopyrum sp., Seed, Cereal and oil, 12.20, 1.94, 0.36, 0.51
-Andropogon sp., Aboveground biomass, Forage, 42.52, 1.01, 0.13, 0.51
-Triticum durum, Caryopsis, Cereal and oil, 11.83, 2.43, 0.42, 0.50
-Sesamum orientale, Seed, Fiber and miscellaneous, 6.88, 3.66, 0.77, 0.50
-Vaccinium reticulatum, Fruit, Tree and fruit, 92.30, 0.79, 0.13, 0.49
-Hordeum vulgare, Floret, Cereal and oil, 13.30, 2.32, 0.35, 0.49
-Gossypium sp., Seed and lint, Fiber and miscellaneous, 7.80, 3.30, 0.41, 0.49
-Zizania palustris, Caryopsis, Cereal and oil, 37.50, 2.64, 0.50, 0.49
-Triticum aestivum, Caryopsis, Cereal and oil, 11.68, 2.30, 0.43, 0.49
-Triticum aestivum, Caryopsis, Cereal and oil, 11.41, 1.80, 0.37, 0.49
-Panicum miliaceum, Floret, Cereal and oil, 9.90, 2.08, 0.34, 0.48
-Corylus sp., Nut, Tree and fruit, 5.42, 2.21, 0.33, 0.47
-Syzygium cumini, Fruit, Tree and fruit, 83.13, 0.68, 0.10, 0.47
-Avena sativa, Floret, Cereal and oil, 10.67, 2.09, 0.38, 0.46
-Triticum aestivum, Caryopsis, Cereal and oil, 11.44, 1.94, 0.37, 0.45
-Oryza sativa, Floret, Cereal and oil, 11.33, 1.39, 0.29, 0.45
-Carya sp., Nut, Tree and fruit, 2.65, 2.09, 0.35, 0.45
-Juglans cinerea, Nut, Tree and fruit, 3.34, 4.12, 0.46, 0.44
-Avena sativa, Floret, Cereal and oil, 8.87, 1.59, 0.34, 0.42
-Triticum aestivum, Caryopsis, Cereal and oil, 11.45, 2.70, 0.43, 0.41
-Sorghum bicolor, Caryopsis, Cereal and oil, 11.18, 1.87, 0.33, 0.39
-Macadamia integrifolia, Nut, Tree and fruit, 2.88, 1.37, 0.14, 0.38
-Setaria italica, Floret, Cereal and oil, 10.62, 2.11, 0.34, 0.35
-Zea mays ssp. mays, Caryopsis, Cereal and oil, 13.52, 1.64, 0.31, 0.34
-Mammea americana, Fruit, Tree and fruit, 86.20, 0.58, 0.08, 0.34
-Bromus inermis, Aboveground biomass, Forage, 45.50, 0.84, 0.19, 0.34
-Saccharum sp., Stem, Fiber and miscellaneous, 35.00, 0.09, 0.02, 0.23
-Saccharum sp., Stem and leaf, Fiber and miscellaneous, 35.00, 0.11, 0.02, 0.17
-Benincasa hispida, Fruit, Vegetable, 96.00, 0.80, 0.18, 5.00
-Brassica rapa var. rapa, Leaf, Vegetable, 87.30, 3.49, 0.51, 3.00
-Silphium perfoliatum, Aboveground biomass, Forage, 71.00, 3.00, 0.05, 3.00
-Cucurbita pepo var. melopepo, Fruit, Vegetable, 94.00, 2.67, 0.47, 3.00
-Solanum melongena, Fruit, Vegetable, 93.00, 2.51, 0.31, 3.00
-Cynara scolymus, Bud, Vegetable, 83.00, 2.54, 0.51, 2.00
-Lactuca sativa L. var. capitata, Head, Vegetable, 95.00, 2.56, 0.50, 2.00
-Festuca or Lolium sp., Aboveground biomass, Forage, 7.30, 2.90, 0.34, 2.00
+ScientificName,PlantPartHarvested,CropCategory,AvMoisture,AvN,AvP,AvK
+Lactuca sativa var. longifolia,Head,Vegetable,94.00,4.27,0.75,6.67
+Beta vulgaris,Crown and aboveground biomass,Fiber and miscellaneous,83.03,2.43,0.23,5.79
+Beta vulgaris,Aboveground biomass,Fiber and miscellaneous,82.10,2.46,0.22,5.79
+Raphanus sativus,Root,Vegetable,94.00,2.93,0.47,4.67
+Lactuca sativa,Head,Vegetable,94.80,3.81,0.48,4.52
+Rheum rhabarbarum,Fruit,Vegetable,93.61,2.25,0.22,4.51
+Lolium arundinaceum,Aboveground biomass,Forage,73.20,3.38,0.39,4.48
+Solanum lycopersicum var. lycopersicum,Fruit,Vegetable,94.00,2.56,0.47,4.28
+Solanum tuberosum,Aboveground biomass,Vegetable,48.90,2.24,0.20,3.95
+Colocasia esculenta,Corm,Vegetable,82.00,1.78,0.33,3.94
+Brassica oleracea var. gongylodes,Stem,Vegetable,91.00,3.02,0.51,3.89
+Nicotiana tabacum,Stalk and leaf,Fiber and miscellaneous,25.00,4.00,0.31,3.86
+Dactylis glomerata,Aboveground biomass,Forage,9.83,1.44,0.34,3.83
+Dactylis glomerata,Aboveground biomass,Forage,12.48,2.39,0.46,3.82
+Cucurbita pepo,Fruit,Vegetable,86.00,0.91,0.26,3.71
+Dactylis glomerata,Aboveground biomass,Forage,10.45,1.25,0.25,3.69
+Cucurbita maxima,Fruit,Vegetable,91.00,3.56,0.42,3.67
+Phalaris arundinacea,Aboveground biomass,Forage,75.80,2.42,0.33,3.64
+Brassica oleracea var. italica,Stem and floral parts,Vegetable,89.70,5.65,0.75,3.55
+Dactylis glomerata,Aboveground biomass,Forage,73.16,2.30,0.41,3.42
+Bromus inermis,Aboveground biomass,Forage,8.80,3.15,0.46,3.41
+Medicago sativa,Aboveground biomass,Forage,13.00,3.22,0.37,3.39
+Phalaris arundinacea,Aboveground biomass,Forage,76.25,2.53,0.40,3.31
+Brassica oleracea var.gemmifera,Bud,Vegetable,86.60,4.98,0.51,3.25
+Medicago sativa,Aboveground biomass,Forage,9.20,2.74,0.31,3.25
+Brassica oleracea var. botrytis,Inflorescence,Vegetable,90.88,4.43,0.66,3.22
+Pennisetum purpureum,Aboveground biomass,Forage,70.45,0.68,0.30,3.18
+Raphanus sativus,Root,Vegetable,94.00,1.87,0.45,3.17
+Brassica oleracea,Head (terminal bud and leaves),Vegetable,91.70,3.03,0.38,3.16
+Bromus inermis,Aboveground biomass,Forage,67.60,2.18,0.32,3.16
+Trifolium incarnatum,Aboveground biomass,Forage,80.78,2.74,0.28,3.10
+Brassica rapa var. rapa,Aboveground biomass,Forage,86.53,3.30,0.42,3.02
+Phalaris arundinacea,Aboveground biomass,Forage,10.97,1.70,0.28,2.99
+Lotus corniculatus,Aboveground biomass,Forage,78.00,2.63,0.27,2.98
+Saccharum sp.,Leaf,Fiber and miscellaneous,73.83,0.87,0.24,2.96
+Melilotus sp.,Aboveground biomass,Forage,80.30,3.47,0.44,2.95
+Medicago sativa,Aboveground biomass,Forage,74.60,2.86,0.38,2.95
+Brassica oleracea,Leaf and petiole,Vegetable,93.00,3.09,0.49,2.93
+Medicago sativa,Aboveground biomass,Forage,75.05,2.80,0.27,2.89
+Medicago sativa,Aboveground biomass,Forage,75.30,2.53,0.40,2.88
+Panicum virgatum,Aboveground biomass,Forage,67.27,1.64,0.22,2.85
+Medicago sativa,Aboveground biomass,Forage,12.95,3.25,0.27,2.84
+Dactylis glomerata,Aboveground biomass,Forage,10.83,1.71,0.25,2.80
+Lotus corniculatus,Aboveground biomass,Forage,80.13,3.16,0.24,2.79
+Cucurbita pepo,Fruit,Vegetable,90.67,2.59,0.39,2.78
+Trifolium incarnatum,Aboveground biomass,Forage,11.75,2.65,0.22,2.76
+Allium cepa,Leaf,Vegetable,92.00,4.00,0.38,2.75
+Brassica rapa var. rapa,Root,Vegetable,91.06,2.24,0.32,2.73
+Brassica oleracea,Head (terminal bud and leaves),Vegetable,90.80,3.45,0.35,2.73
+Medicago sativa,Aboveground biomass,Forage,76.18,3.35,0.29,2.72
+Medicago sativa,Aboveground biomass,Forage,75.08,3.16,0.29,2.71
+Phaseolus sp.,Seed,Vegetable,11.40,4.22,0.54,2.69
+Elymus trachycaulus,Aboveground biomass,Forage,8.93,1.40,0.25,2.68
+Poaceae,Aboveground biomass,Forage,8.00,1.38,0.27,2.67
+Cucurbita maxima,Fruit,Vegetable,88.00,2.67,0.18,2.67
+Brassica oleracea,Leaf,Vegetable,85.00,3.52,0.37,2.67
+Cucurbita moschata,Fruit,Vegetable,85.00,1.07,0.22,2.67
+Tripsacum dactyloides,Aboveground biomass,Forage,10.85,1.69,0.40,2.64
+Dactylis glomerata,Aboveground biomass,Forage,74.13,2.37,0.18,2.64
+Capsicum annuum var. annuum,Fruit,Vegetable,84.00,2.00,0.28,2.63
+Fagopyrum sp.,Straw,Cereal and oil,11.32,0.79,0.10,2.62
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,77.00,1.64,0.21,2.61
+Medicago sativa,Aboveground biomass,Forage,76.50,3.21,0.28,2.61
+Trifolium hybridum,Aboveground biomass,Forage,75.87,2.50,0.26,2.58
+Trifolium hybridum,Aboveground biomass,Forage,76.40,2.51,0.25,2.58
+Cucumis melo,Fruit,Tree and fruit,88.33,0.91,0.16,2.58
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,78.25,1.85,0.23,2.57
+Trifolium hybridum,Aboveground biomass,Forage,10.35,2.36,0.28,2.55
+Trifolium hybridum,Aboveground biomass,Forage,11.00,2.42,0.28,2.55
+Lolium perenne ssp. perenne,Aboveground biomass,Forage,76.88,1.86,0.28,2.55
+Phleum pratense,Aboveground biomass,Forage,74.45,2.41,0.43,2.54
+Medicago sativa,Aboveground biomass,Forage,12.00,3.17,0.26,2.54
+Sorghum bicolor,Aboveground biomass,Forage,76.85,1.37,0.24,2.51
+Vica sativa,Aboveground biomass,Forage,75.00,3.00,0.35,2.51
+Trifolium pratense,Aboveground biomass,Forage,80.15,3.10,0.38,2.49
+Trifolium hybridum,Aboveground biomass,Forage,12.56,2.27,0.25,2.48
+Medicago sativa,Aboveground biomass,Forage,9.90,2.62,0.35,2.48
+Medicago sativa,Aboveground biomass,Forage,10.30,2.97,0.19,2.47
+Medicago sativa,Aboveground biomass,Forage,9.30,2.74,0.26,2.47
+Beta vulgaris,Root,Vegetable,87.46,2.15,0.32,2.46
+Medicago sativa,Aboveground biomass,Forage,11.34,3.39,0.34,2.44
+Trofolium repens,Aboveground biomass,Forage,10.82,3.32,0.32,2.43
+Daucus carota ssp. sativus,Root,Vegetable,88.00,1.51,0.33,2.43
+Avena sativa,Aboveground biomass,Forage,14.20,1.47,0.35,2.41
+Persea americana,Fruit,Tree and fruit,79.73,1.26,0.19,2.41
+Trifolium pratense,Aboveground biomass,Forage,77.50,2.92,0.29,2.40
+Vigna unguiculata ssp. unguiculata,Aboveground biomass,Forage,9.60,2.97,0.32,2.39
+Agrostis alba,Aboveground biomass,Forage,8.00,2.21,0.15,2.39
+Avena sativa,Straw,Cereal and oil,9.68,0.71,0.09,2.39
+Lolium arundinaceum,Aboveground biomass,Forage,8.40,2.31,0.32,2.36
+Lolium arundinaceum,Aboveground biomass,Forage,7.90,3.25,0.51,2.36
+Medicago sativa,Aboveground biomass,Forage,10.58,3.05,0.23,2.34
+Abelmoschus esculentus,Fruit,Vegetable,88.00,2.67,0.53,2.33
+Bromus inermis,Aboveground biomass,Forage,71.30,1.89,0.28,2.33
+Persea americana,Fruit,Tree and fruit,74.27,1.23,0.16,2.33
+Pennisetum purpureum,Aboveground biomass,Forage,79.80,0.89,0.44,2.32
+Bromus sp.,Aboveground biomass,Forage,12.90,1.19,0.35,2.32
+Persea americana,Fruit,Tree and fruit,72.56,1.23,0.15,2.31
+Dioscorea sp.,Tuber,Vegetable,74.00,1.11,0.25,2.31
+Bromus inermis,Aboveground biomass,Forage,6.83,0.98,0.19,2.31
+Phaseolus vulgaris,Fruit,Vegetable,87.75,3.00,0.50,2.30
+Carica papaya,Fruit,Tree and fruit,88.83,0.87,0.04,2.30
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,82.05,2.55,0.41,2.28
+Medicago sativa,Aboveground biomass,Forage,78.34,3.49,0.34,2.27
+Vica villosa,Aboveground biomass,Forage,78.25,3.75,0.33,2.25
+Trifolium repens,Aboveground biomass,Forage,9.73,3.09,0.35,2.25
+Medicago sativa. Phleum pratense,Aboveground biomass,Forage,78.08,3.36,0.37,2.24
+Medicago Sativa. Phleum pratense,Aboveground biomass,Forage,78.08,3.36,0.37,2.24
+Vica sativa,Aboveground biomass,Forage,12.20,2.60,0.36,2.24
+Avena sativa,Straw,Cereal and oil,10.20,0.73,0.10,2.23
+Capsicum annuum var. annuum,Fruit,Vegetable,91.00,1.42,0.31,2.22
+Lathyrus sylvestris,Aboveground biomass,Forage,73.00,4.22,0.37,2.22
+Trifolimu repens. Phleum pratense,Aboveground biomass,Forage,70.60,3.17,0.20,2.22
+Phleum pratense. Trifolium repens,Aboveground biomass,Forage,70.60,3.17,0.20,2.22
+Bromus inermis,Aboveground biomass,Forage,10.48,2.03,0.23,2.20
+Agrostis alba,Aboveground biomass,Forage,73.57,2.03,0.38,2.20
+Bromus sp.,Aboveground biomass,Forage,64.40,2.14,0.29,2.19
+Prunus armeniaca,Fruit,Tree and fruit,86.35,1.64,0.14,2.17
+Tetragonia tetragonioides,Leaf,Vegetable,94.00,4.00,0.47,2.17
+Medicago sativa. Phleum pratense,Aboveground biomass,Forage,10.37,2.17,0.21,2.16
+Medicago Sativa. Phleum pratense,Aboveground biomass,Forage,10.37,2.17,0.21,2.16
+Trofolium repens,Aboveground biomass,Forage,8.90,2.53,0.25,2.16
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,7.83,1.78,0.29,2.15
+Avena sativa,Aboveground biomass,Forage,73.43,1.45,0.34,2.15
+Cucurbita pepo var. melopepo,Fruit,Vegetable,93.00,2.74,0.51,2.14
+Capsicum annuum var. annuum,Fruit,Vegetable,92.50,2.18,0.38,2.14
+Poa sp.,Aboveground biomass,Forage,64.30,2.35,0.29,2.14
+Cynodon dactylon,Aboveground biomass,Forage,75.00,2.75,0.23,2.13
+Medicago sativa,Aboveground biomass,Forage,9.65,2.79,0.26,2.12
+Paspalum notatum,Aboveground biomass,Forage,69.70,1.32,0.17,2.06
+Psidium guajava,Fruit,Tree and fruit,86.10,0.94,0.18,2.04
+Helianthus tuberosus,Tuber,Vegetable,80.07,1.52,0.30,2.02
+Poa pratensis,Aboveground biomass,Forage,65.35,2.12,0.28,2.01
+Eriobotrya japonica,Fruit,Tree and fruit,86.73,0.52,0.20,2.00
+Solanum tuberosum,Tuber,Vegetable,77.20,1.61,0.25,2.00
+Poa pratensis,Aboveground biomass,Forage,69.38,2.30,0.31,1.99
+Medicago sativa,Aboveground biomass,Forage,15.25,2.39,0.22,1.99
+Bromus inermis,Aboveground biomass,Forage,12.40,1.97,0.28,1.99
+Nicotiana tabacum,Leaf,Fiber and miscellaneous,20.00,2.13,0.27,1.99
+Citrus grandis,Fruit,Tree and fruit,89.10,1.12,0.16,1.98
+Trifolium pratense,Aboveground biomass,Forage,74.27,2.42,0.28,1.98
+Poa sp.,Aboveground biomass,Forage,70.70,2.00,0.31,1.97
+Panicum virgatum,Aboveground biomass,Forage,58.07,0.82,0.15,1.97
+Poaceae,Aboveground biomass,Forage,72.50,2.50,0.26,1.97
+Fragaria X ananassa var. ananassa,Fruit,Tree and fruit,91.28,1.25,0.21,1.97
+Poa pratensis,Aboveground biomass,Forage,70.47,2.60,0.40,1.97
+Trifolium pratense,Aboveground biomass,Forage,73.58,2.37,0.28,1.96
+Trifolium repens. Poaceae,Aboveground biomass,Forage,11.25,2.92,0.23,1.96
+Poaceae. Trifolium repens,Aboveground biomass,Forage,11.25,2.92,0.23,1.96
+Lolium arundinaceum,Aboveground biomass,Forage,12.50,1.71,0.30,1.96
+Lolium arundinaceum,Aboveground biomass,Forage,8.00,3.14,0.26,1.96
+Actinidia deliciosa,Fruit,Tree and fruit,83.05,0.93,0.24,1.96
+Melilotus sp.,Aboveground biomass,Forage,70.70,2.86,0.21,1.96
+Poa sp.,Aboveground biomass,Forage,68.85,2.91,0.43,1.95
+Melilotus sp.,Aboveground biomass,Forage,72.80,3.42,0.25,1.95
+Melilotus sp.,Aboveground biomass,Forage,65.20,3.44,0.25,1.95
+Setaria italica,Aboveground biomass,Forage,72.45,1.59,0.18,1.94
+Helianthus annuus,Stover,Cereal and oil,13.30,0.86,0.11,1.94
+Helianthus annuus,Stover,Cereal and oil,13.30,0.86,0.11,1.94
+Poa pratensis,Aboveground biomass,Forage,10.95,1.60,0.28,1.92
+Cyamopsis tetragonoloba,Aboveground biomass,Forage,81.00,2.34,0.17,1.92
+Festuca or Lolium sp.,Aboveground biomass,Forage,71.00,2.36,0.37,1.92
+Medicago sativa,Aboveground biomass,Forage,9.35,2.86,0.29,1.92
+Cyamopsis tetragonoloba,Aboveground biomass,Forage,80.80,1.90,0.16,1.91
+Trifolium pratense,Aboveground biomass,Forage,12.53,2.39,0.31,1.91
+Medicago sativa. Bromus inermis,Aboveground biomass,Forage,11.58,2.42,0.27,1.90
+Medicago Sativa. Bromus inermis,Aboveground biomass,Forage,11.58,2.42,0.27,1.90
+Agrostis alba,Aboveground biomass,Forage,8.44,1.31,0.22,1.89
+Trifolium pratense,Aboveground biomass,Forage,13.95,2.51,0.26,1.89
+Lotus corniculatus,Aboveground biomass,Forage,9.97,2.52,0.23,1.89
+Poaceae,Aboveground biomass,Forage,75.10,1.84,0.32,1.88
+Daucus carota ssp. sativus,Stem and leaves,Vegetable,83.83,2.35,0.19,1.88
+Trifolium pratense,Aboveground biomass,Forage,13.55,2.43,0.25,1.86
+Capsicum annuum var. annuum,Fruit,Vegetable,86.00,2.29,0.33,1.86
+Phaseolus lunatus,Seed,Vegetable,9.98,3.59,0.41,1.85
+Phleum pratense,Aboveground biomass,Forage,12.20,1.21,0.23,1.83
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,70.00,0.88,0.21,1.82
+Phleum pratense,Aboveground biomass,Forage,11.96,1.54,0.22,1.82
+Hordeum vulgare,Straw,Cereal and oil,11.25,0.69,0.10,1.79
+Melilotus sp.,Aboveground biomass,Forage,9.80,2.58,0.30,1.78
+Medicago sativa,Aboveground biomass,Forage,10.76,2.81,0.25,1.78
+Opuntia sp.,Fruit,Tree and fruit,87.55,0.94,0.19,1.77
+Syzygium jambos,Fruit,Tree and fruit,93.00,1.37,0.11,1.76
+Trifolium repens. Poaceae,Aboveground biomass,Forage,8.50,1.81,0.22,1.75
+Poaceae. Trifolium repens,Aboveground biomass,Forage,8.50,1.81,0.22,1.75
+LInum usitatissimum,Straw,Cereal and oil,6.94,1.11,0.08,1.74
+Pastinaca sativa,Root,Vegetable,81.00,1.01,0.36,1.74
+Cynodon dactylon,Aboveground biomass,Forage,68.33,1.74,0.21,1.74
+Agropyron sp.,Aboveground biomass,Forage,54.25,1.87,0.14,1.72
+Poa sp.,Aboveground biomass,Forage,10.30,1.76,0.27,1.72
+Malpighia emarginata,Fruit,Tree and fruit,91.41,0.75,0.13,1.70
+Poa pratensis,Aboveground biomass,Forage,11.86,1.01,0.23,1.70
+Melilotus sp.,Aboveground biomass,Forage,68.60,2.99,0.24,1.70
+Phleum pratense,Aboveground biomass,Forage,73.10,1.92,0.29,1.69
+Phleum pratense,Aboveground biomass,Forage,70.30,1.87,0.32,1.69
+Phleum pratense,Aboveground biomass,Forage,64.30,1.55,0.29,1.69
+Phleum pratense,Aboveground biomass,Forage,63.70,1.63,0.29,1.69
+Phleum pratense,Aboveground biomass,Forage,58.50,1.34,0.29,1.69
+Agrostis alba,Aboveground biomass,Forage,7.00,1.50,0.35,1.69
+Phleum pratense,Aboveground biomass,Forage,66.70,1.70,0.29,1.69
+Phleum pratense,Aboveground biomass,Forage,73.65,1.07,0.21,1.68
+Artocarpus altilis,Fruit,Tree and fruit,70.65,0.58,0.10,1.67
+Melilotus sp.,Aboveground biomass,Forage,10.42,2.65,0.24,1.65
+Melilotus sp.,Aboveground biomass,Forage,75.00,2.87,0.27,1.65
+Thinopyrum intermedium,Aboveground biomass,Forage,9.95,1.30,0.19,1.65
+Zea mays ssp. mays,Stover,Vegetable,9.40,1.04,0.10,1.64
+Carissa macrocarpa,Fruit,Tree and fruit,84.17,0.51,0.04,1.64
+Bromus sp.,Aboveground biomass,Forage,8.93,1.53,0.16,1.64
+Ribes sp.,Fruit,Tree and fruit,87.87,1.16,0.22,1.63
+Pennisetum glaucum,Aboveground biomass,Forage,78.40,1.54,0.26,1.63
+Phleum pratense,Aboveground biomass,Forage,9.48,1.20,0.17,1.63
+Citrus X paradisi,Fruit,Tree and fruit,90.76,1.09,0.08,1.62
+Prunus persica,Fruit,Tree and fruit,87.83,0.95,0.10,1.60
+Phaseolus vulgaris,Straw,Vegetable,12.30,1.27,0.15,1.59
+Trifolium pratense. Poaceae,Aboveground biomass,Forage,10.80,2.66,0.23,1.59
+Poaceae. Trifolium pratense,Aboveground biomass,Forage,10.80,2.66,0.23,1.59
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,74.50,1.41,0.30,1.58
+Hordeum vulgare,Aboveground biomass,Forage,79.65,2.20,0.37,1.58
+Morus nigra,Fruit,Tree and fruit,87.68,1.87,0.31,1.57
+Phleum pratense,Aboveground biomass,Forage,69.60,0.96,0.18,1.57
+Citrus X paradisi,Fruit,Tree and fruit,90.48,1.16,0.08,1.55
+Trifolium pratense,Aboveground biomass,Forage,11.70,2.46,0.28,1.55
+Hibiscus sabdariffa,Fruit,Tree and fruit,86.58,1.14,0.28,1.55
+Prunus persica var. nectarina,Fruit,Tree and fruit,86.28,1.10,0.12,1.55
+Beta vulgaris,Root,Fiber and miscellaneous,79.28,1.05,0.22,1.54
+Dimocarpus longan,Fruit,Tree and fruit,82.75,1.22,0.12,1.54
+Musa sp.,Fruit,Tree and fruit,74.26,0.64,0.08,1.54
+Beta vulgaris,Crown and root,Fiber and miscellaneous,80.30,1.34,0.24,1.52
+Zea mays ssp. mays,Stover,Cereal and oil,12.73,0.97,0.10,1.52
+Poa pratensis,Aboveground biomass,Forage,7.90,1.42,0.27,1.52
+Psidium cattleianum,Fruit,Tree and fruit,80.66,0.48,0.14,1.51
+Citrus X paradisi,Fruit,Tree and fruit,91.56,1.04,0.11,1.50
+Zea mays ssp. mays,Stover,Cereal and oil,13.30,0.98,0.10,1.50
+Zea mays ssp. mays,Stover,Cereal and oil,13.30,0.98,0.10,1.50
+Citrus X paradisi,Fruit,Tree and fruit,91.38,1.02,0.10,1.50
+Medicago sativa. Dactylis glomerata,Aboveground biomass,Forage,7.95,2.14,0.20,1.49
+Medicago Sativa. Dactylis glomerata,Aboveground biomass,Forage,7.95,2.14,0.20,1.49
+Pisum sativum,Aboveground biomass,Forage,10.93,2.57,0.27,1.49
+Hordeum vulgare,Aboveground biomass,Forage,11.28,1.42,0.26,1.49
+Oryza sativa,Straw,Cereal and oil,9.18,0.71,0.08,1.48
+Annona muricata,Fruit,Tree and fruit,81.16,0.85,0.14,1.48
+Vigna unguiculata ssp. unguiculata,Seed,Vegetable,85.00,3.52,0.52,1.47
+Zea mays ssp. mays,Aboveground biomass,Forage,76.87,1.42,0.24,1.47
+Sorghum bicolor ssp. drummondii,Aboveground biomass,Forage,76.60,1.28,0.30,1.45
+Poaceae,Aboveground biomass,Forage,10.90,1.52,0.22,1.45
+Melilotus sp.,Aboveground biomass,Forage,70.80,2.69,0.24,1.44
+Melilotus sp.,Aboveground biomass,Forage,67.30,2.69,0.22,1.44
+Musa X paradisiaca,Fruit,Tree and fruit,65.28,0.60,0.10,1.44
+Phaseolus vulgaris,Seed,Vegetable,10.38,4.03,0.61,1.43
+Lolium perenne ssp. perenne,Aboveground biomass,Forage,12.74,1.49,0.20,1.42
+Trifolium pratense. Poaceae,Aboveground biomass,Forage,11.60,2.27,0.23,1.42
+Poaceae. Trifolium pratense,Aboveground biomass,Forage,11.60,2.27,0.23,1.42
+Pisum sativum,Fruit,Vegetable,88.00,3.73,0.44,1.42
+Pisum sativum,Fruit,Vegetable,88.00,3.73,0.44,1.42
+Sambucus sp.,Fruit,Tree and fruit,79.80,0.52,0.19,1.39
+Allium sativum,Bulb,Vegetable,61.00,2.63,0.44,1.38
+Arachis hypogaea,Aboveground biomass,Forage,10.83,1.92,0.16,1.38
+Arachis hypogaea,Aboveground biomass,Forage,9.15,1.75,0.19,1.38
+Arachis hypogaea,Aboveground biomass,Vegetable,9.45,1.64,0.14,1.38
+Citrus X paradisi,Fruit,Tree and fruit,89.31,0.75,0.11,1.38
+Citrus X paradisi,Fruit,Tree and fruit,89.58,1.35,0.12,1.37
+Poa sp.,Aboveground biomass,Forage,67.10,1.17,0.27,1.37
+Kummerowia striata,Aboveground biomass,Forage,11.00,2.50,0.29,1.37
+Citrus sinensis,Fruit,Tree and fruit,84.24,1.18,0.12,1.37
+Rubus sp.,Fruit,Tree and fruit,85.64,0.80,0.15,1.36
+Citrus sinensis,Fruit,Tree and fruit,86.81,1.25,0.14,1.35
+Andropogon sp.,Aboveground biomass,Forage,60.35,1.35,0.15,1.35
+Annona reticulata,Fruit,Tree and fruit,71.50,0.95,0.07,1.34
+Poaceae,Aboveground biomass,Forage,10.85,1.54,0.24,1.34
+Citrullus lanatus,Fruit,Tree and fruit,90.84,1.11,0.11,1.33
+Poaceae,Aboveground biomass,Forage,71.80,1.64,0.23,1.33
+Vigna unguiculata ssp. unguiculata,Seed,Vegetable,10.65,4.13,0.53,1.33
+Vigna radiata var. radiata,Seed,Vegetable,10.23,4.12,0.40,1.33
+Vicia faba,Fruit,Vegetable,81.00,4.72,0.50,1.32
+Citrus sinensis,Fruit,Tree and fruit,87.14,0.87,0.09,1.31
+Citrus sinensis,Fruit,Tree and fruit,86.34,1.22,1.24,1.31
+Allium cepa,Bulb,Vegetable,86.00,1.71,0.31,1.29
+Citrus reticulata,Fruit,Tree and fruit,87.60,0.81,0.08,1.27
+Avena sativa,Aboveground biomass,Forage,10.24,1.37,0.24,1.26
+Bromus sp.,Aboveground biomass,Forage,44.00,1.02,0.26,1.25
+Prunus cerasus,Fruit,Tree and fruit,86.13,1.15,0.11,1.25
+Pisum sativum,Seed,Vegetable,79.50,4.35,0.55,1.24
+Pisum sativum,Seed (immature),Vegetable,79.00,4.50,0.52,1.24
+Pisum sativum,Seed,Vegetable,79.00,4.50,0.52,1.24
+Secale cereale,Aboveground biomass,Forage,7.38,1.21,0.22,1.24
+Cydonia oblonga,Fruit,Tree and fruit,83.80,0.40,0.10,1.22
+Triticum sp.,Aboveground biomass,Forage,11.30,1.25,0.20,1.20
+Pisum sativum,Straw,Vegetable,11.20,1.34,0.11,1.20
+Pisum sativum,Straw,Vegetable,11.20,1.34,0.11,1.20
+Gossypium sp.,Seed,Fiber and miscellaneous,8.38,3.77,0.73,1.18
+Triticum sp.,Straw,Cereal and oil,9.22,0.64,0.06,1.17
+Triticum sp.,Straw,Cereal and oil,9.22,0.64,0.06,1.17
+Prunus avium,Fruit,Tree and fruit,81.38,1.07,0.10,1.16
+Prunus sp.,Fruit,Tree and fruit,85.20,0.85,0.07,1.16
+Citrus limon,Fruit,Tree and fruit,87.20,1.51,0.12,1.15
+Sorghum bicolor,Aboveground biomass,Forage,75.20,1.34,0.19,1.15
+Phaseolus lunatus,Straw,Vegetable,10.95,1.20,0.14,1.14
+Phaseolus vulgaris,Straw,Vegetable,10.93,1.16,0.15,1.14
+Ginkgo biloba,Fruit,Tree and fruit,55.20,1.54,0.28,1.14
+Pistacia vera,Nut,Tree and fruit,3.87,3.43,0.52,1.14
+Rubus sp.,Fruit,Tree and fruit,86.57,1.08,0.09,1.13
+Ziziphus zizyphus,Fruit,Tree and fruit,77.86,0.87,0.10,1.13
+Eugenia uniflora,Fruit,Tree and fruit,90.81,1.39,0.12,1.12
+Ficus carica,Fruit,Tree and fruit,79.11,0.57,0.07,1.11
+Citrus sinensis,Fruit,Tree and fruit,82.30,1.18,0.12,1.11
+Glycine max,Aboveground biomass,Forage,10.66,2.57,0.24,1.11
+Lespedeza cuneata,Aboveground biomass,Forage,10.00,2.22,0.25,1.10
+Artocarpus heterophyllus,Fruit,Tree and fruit,72.23,0.85,0.13,1.09
+None,Aboveground biomass,Forage,9.00,1.30,0.21,1.08
+Phaseolus vulgaris,Seed,Vegetable,10.75,3.99,0.44,1.07
+Fortunella sp.,Fruit,Tree and fruit,81.70,0.79,0.10,1.07
+Allium porrum,Bulb,Vegetable,83.00,1.41,0.21,1.06
+Glycine max,Aboveground biomass,Forage,82.27,2.93,0.29,1.06
+Pisum sativum,Seed,Vegetable,10.45,4.26,0.48,1.05
+Ipomoea batatas,Root,Vegetable,68.85,0.91,0.15,1.04
+Kummerowia striata,Aboveground biomass,Forage,10.87,2.26,0.21,1.04
+Zea mays ssp. mays,Aboveground biomass,Forage,70.08,1.30,0.38,1.04
+Kummerowia striata,Aboveground biomass,Forage,8.00,2.02,0.18,1.03
+Vitis sp.,Fruit,Tree and fruit,80.65,0.57,0.05,1.02
+Castanea sativa,Fruit,Tree and fruit,48.65,0.75,0.18,1.01
+Lespedeza cuneata,Aboveground biomass,Forage,5.80,2.98,0.27,0.99
+Brassica sp.,Seed,Cereal and oil,8.93,3.89,0.62,0.98
+Kummerowia stipulacea,Aboveground biomass,Forage,9.00,2.29,0.24,0.96
+Vitis vinifera,Fruit,Tree and fruit,80.28,0.57,0.07,0.95
+Litchi chinensis,Fruit,Tree and fruit,81.76,0.73,0.17,0.94
+Lespedeza cuneata,Aboveground biomass,Forage,8.20,2.42,0.23,0.93
+Annona squamosa,Fruit,Tree and fruit,73.23,1.23,0.12,0.92
+Arachis hypogaea,Aboveground biomass,Forage,8.25,2.33,0.16,0.92
+Pouteria sapota,Fruit,Tree and fruit,62.43,0.90,0.07,0.92
+Tamarindus indica,Fruit,Tree and fruit,31.40,0.65,0.16,0.92
+Festuca or Lolium sp.,Aboveground biomass,Forage,64.00,0.61,0.11,0.90
+Phaseolus lunatus,Fruit,Vegetable,71.00,3.48,0.50,0.90
+Glycine max,Aboveground biomass,Forage,10.27,2.45,0.28,0.88
+Manilkara zapota,Fruit,Tree and fruit,78.00,0.32,0.05,0.88
+Diospyros virginiana,Fruit,Tree and fruit,64.40,0.36,0.07,0.87
+Citrus aurantiifolia,Fruit,Tree and fruit,88.26,0.95,0.15,0.87
+Glycine max,Aboveground biomass,Forage,75.80,2.64,0.29,0.87
+Lens culinaris,Seed,Vegetable,11.33,4.36,0.43,0.86
+Mangifera indica,Fruit,Tree and fruit,81.71,0.45,0.06,0.85
+Castanea crenata,Fruit,Tree and fruit,61.41,0.93,0.19,0.85
+LInum usitatissimum,Seed,Cereal and oil,6.14,3.70,0.57,0.84
+Phoenix dactylifera,Fruit,Tree and fruit,22.50,0.41,0.05,0.84
+Ananas comosus,Fruit,Tree and fruit,86.50,0.46,0.05,0.84
+Diospyros kaki,Fruit,Tree and fruit,80.32,0.47,0.09,0.82
+Cocos nucifera,Fruit,Tree and fruit,67.62,1.13,0.31,0.81
+Melilotus sp.,Aboveground biomass,Forage,8.95,1.82,0.19,0.80
+Castanea mollissima,Fruit,Tree and fruit,43.95,1.20,0.17,0.80
+Zizania palustris,Straw,Cereal and oil,9.20,0.81,0.11,0.79
+Glycine max,Seed,Vegetable,73.00,5.33,0.22,0.78
+None,Aboveground biomass,Forage,11.80,1.58,0.11,0.77
+Prunus dulcis,Seed,Tree and fruit,4.42,3.34,0.54,0.77
+Carthamus tinctorius,Seed,Cereal and oil,7.60,2.67,0.60,0.75
+Malus sp.,Fruit,Tree and fruit,81.78,0.34,0.05,0.75
+Quercus sp.,Fruit,Tree and fruit,27.90,1.36,0.11,0.75
+Helianthus annuus,Fruit,Cereal and oil,7.36,3.13,0.62,0.73
+Sorghum bicolor,Stover,Cereal and oil,8.13,0.67,0.13,0.73
+Helianthus annuus,Fruit,Cereal and oil,7.36,2.99,0.63,0.72
+Lespedeza cuneata,Aboveground biomass,Forage,5.40,2.75,0.26,0.69
+Cocos nucifera,Fruit,Tree and fruit,46.99,1.01,0.21,0.67
+Bertholletia excelsa,Nut,Tree and fruit,3.34,2.37,0.62,0.62
+Hordeum vulgare,Floret,Cereal and oil,10.77,1.61,0.38,0.58
+Vaccinium sp.,Fruit,Tree and fruit,84.61,0.70,0.06,0.58
+X Triticosecale rimpaui,Caryopsis,Cereal and oil,10.95,2.45,0.34,0.57
+Arachis hypogaea,Fruit,Vegetable,6.82,4.25,0.35,0.56
+Juglans nigra,Nut,Tree and fruit,4.36,4.07,0.49,0.55
+Hordeum vulgare,Floret,Cereal and oil,11.72,2.11,0.42,0.54
+Vaccinium macrocarpon,Fruit,Tree and fruit,86.54,0.46,0.07,0.53
+Juglans regia,Nut,Tree and fruit,3.65,2.37,0.33,0.52
+Secale cereale,Caryopsis,Cereal and oil,11.88,2.14,0.38,0.52
+Fagopyrum sp.,Seed,Cereal and oil,12.20,1.94,0.36,0.51
+Andropogon sp.,Aboveground biomass,Forage,42.52,1.01,0.13,0.51
+Triticum durum,Caryopsis,Cereal and oil,11.83,2.43,0.42,0.50
+Sesamum orientale,Seed,Fiber and miscellaneous,6.88,3.66,0.77,0.50
+Vaccinium reticulatum,Fruit,Tree and fruit,92.30,0.79,0.13,0.49
+Hordeum vulgare,Floret,Cereal and oil,13.30,2.32,0.35,0.49
+Gossypium sp.,Seed and lint,Fiber and miscellaneous,7.80,3.30,0.41,0.49
+Zizania palustris,Caryopsis,Cereal and oil,37.50,2.64,0.50,0.49
+Triticum aestivum,Caryopsis,Cereal and oil,11.68,2.30,0.43,0.49
+Triticum aestivum,Caryopsis,Cereal and oil,11.41,1.80,0.37,0.49
+Panicum miliaceum,Floret,Cereal and oil,9.90,2.08,0.34,0.48
+Corylus sp.,Nut,Tree and fruit,5.42,2.21,0.33,0.47
+Syzygium cumini,Fruit,Tree and fruit,83.13,0.68,0.10,0.47
+Avena sativa,Floret,Cereal and oil,10.67,2.09,0.38,0.46
+Triticum aestivum,Caryopsis,Cereal and oil,11.44,1.94,0.37,0.45
+Oryza sativa,Floret,Cereal and oil,11.33,1.39,0.29,0.45
+Carya sp.,Nut,Tree and fruit,2.65,2.09,0.35,0.45
+Juglans cinerea,Nut,Tree and fruit,3.34,4.12,0.46,0.44
+Avena sativa,Floret,Cereal and oil,8.87,1.59,0.34,0.42
+Triticum aestivum,Caryopsis,Cereal and oil,11.45,2.70,0.43,0.41
+Sorghum bicolor,Caryopsis,Cereal and oil,11.18,1.87,0.33,0.39
+Macadamia integrifolia,Nut,Tree and fruit,2.88,1.37,0.14,0.38
+Setaria italica,Floret,Cereal and oil,10.62,2.11,0.34,0.35
+Zea mays ssp. mays,Caryopsis,Cereal and oil,13.52,1.64,0.31,0.34
+Mammea americana,Fruit,Tree and fruit,86.20,0.58,0.08,0.34
+Bromus inermis,Aboveground biomass,Forage,45.50,0.84,0.19,0.34
+Saccharum sp.,Stem,Fiber and miscellaneous,35.00,0.09,0.02,0.23
+Saccharum sp.,Stem and leaf,Fiber and miscellaneous,35.00,0.11,0.02,0.17
+Benincasa hispida,Fruit,Vegetable,96.00,0.80,0.18,5.00
+Brassica rapa var. rapa,Leaf,Vegetable,87.30,3.49,0.51,3.00
+Silphium perfoliatum,Aboveground biomass,Forage,71.00,3.00,0.05,3.00
+Cucurbita pepo var. melopepo,Fruit,Vegetable,94.00,2.67,0.47,3.00
+Solanum melongena,Fruit,Vegetable,93.00,2.51,0.31,3.00
+Cynara scolymus,Bud,Vegetable,83.00,2.54,0.51,2.00
+Lactuca sativa L. var. capitata,Head,Vegetable,95.00,2.56,0.50,2.00
+Festuca or Lolium sp.,Aboveground biomass,Forage,7.30,2.90,0.34,2.00
