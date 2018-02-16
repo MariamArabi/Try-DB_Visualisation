@@ -11,7 +11,7 @@ var fader = function(color) { return d3.interpolateRgb(color, "#fff")(0.2); },
     color = d3.scaleOrdinal(d3.schemeCategory20.map(fader)),
     format = d3.format(",d");
 
-d3.csv("bdd/nutriments.csv", function (error, data) {
+d3.tsv("data/nutriments.tsv", function (error, data) {
     if (error) throw error;
 
     data.forEach(element => {
@@ -24,8 +24,8 @@ d3.csv("bdd/nutriments.csv", function (error, data) {
     console.log(data);
 
     var stratified = d3.stratify()
-        .id(function(d) { return d.name; })
-        .parentId(function(d) { return d.parent; })
+        .id(function(d) { return d.Name; })
+        .parentId(function(d) { return d.CropCategory; })
         (data);
 
     var root = stratified
