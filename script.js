@@ -1,9 +1,7 @@
 var MAX_SELECTED_PLANTS = 5;
 
-var svg = d3.select(".a svg");
-
-var width = +svg.attr("width");
-var height = +svg.attr("height");
+var svgA = d3.select(".a svg");
+var svgC = d3.select(".c svg");
 
 var colors = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
@@ -14,7 +12,7 @@ var fader = function(color) { return d3.interpolateRgb(color, "#fff")(0.2); },
 
 var treemap = d3.treemap()
     .tile(d3.treemapResquarify)
-    .size([width, height])
+    .size([+svgA.attr("width"), +svgA.attr("height")])
     .round(true)
     .paddingInner(1);
 
@@ -34,27 +32,33 @@ d3.csv("data/nutriments.csv", function (error, data) {
         element.AvMoisture = +element.AvMoisture;
     });
 
-    initButtons(data);
-    displayTreemap(data, "AvK");
+	initButtons(data);
+	displayTreemap(data, "AvK");
 });
 
 function updatePlants() {
 
-    console.log(selectedPlants)
+	console.log(selectedPlants)
+	
+	plantWidth = +svgC.attr("width") / 5 - 10;
 
-    d3.select("svg")
-        .selectAll(".selected")
-        .data(selectedPlants)
-        .append("rect")
-        .enter()
-        .attr("class", "selected")
+	var selection = svgC.selectAll("rect")
+		.data(selectedPlants);
+		selection.exit()
+		.remove();
+
+	selection.enter()
+		.each( function(d) {
+			console.log("Enter : " + d);
+		})
+		.append("rect")
         .attr("x", function(d, i) {
-            return width / 3 + (i * 100);
+            return (i * (plantWidth + 10));
         })
-        .attr("y", 200)
-        .attr("width" , 90)
+        .attr("y", 0)
+        .attr("width" , plantWidth)
         .attr("height", 190)
-        .attr("fill", "#000");
+		.attr("fill", "#000");
 }
 
 function selectPlant(plant) {
@@ -68,13 +72,13 @@ function selectPlant(plant) {
         alert("Can't select more than " + MAX_SELECTED_PLANTS + " plants")
     }
 
-    d3.selectAll("rect")
+    svgA.selectAll("rect")
         .filter(function (d) {
             return selectedPlants.includes(d.data);
         })
         .attr("fill", "red");
 
-    d3.selectAll("rect")
+	svgA.selectAll("rect")
         .filter(function (d) {
             return !selectedPlants.includes(d.data);
         })
@@ -130,7 +134,7 @@ function displayTreemap(data, variable) {
 
     console.log(root.leaves())
 
-    var cell = svg.selectAll("g")
+    var cell = svgA.selectAll("g")
         .data(root.leaves())
         .enter()
         .append("g")      
@@ -179,12 +183,12 @@ function updateTreemap(data, variable) {
 
     treemap(root);
 
-    svg.selectAll("g")
+    svgA.selectAll("g")
         .data(root.leaves())
         .transition()        
         .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
 
-    svg.selectAll("rect")
+    svgA.selectAll("rect")
         .data(root.leaves())
         .transition() 
         .attr("width", function(d) { return d.x1 - d.x0; })
@@ -193,7 +197,7 @@ function updateTreemap(data, variable) {
 
 function onMouseOver(element) {
 
-    var mouse = d3.mouse(svg.node()).map(function (d) {
+    var mouse = d3.mouse(svgA.node()).map(function (d) {
         return parseInt(d);
     });
 
