@@ -1,8 +1,10 @@
+var keys = ["AvMoisture", "AvN", "AvP", "AvK"];
+
 // Panel A : Treemap
 
 var svgA = d3.select(".a svg");
 
-var mycolors = d3.scaleOrdinal(["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f"]);
+var colors = d3.scaleOrdinal(["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f"]);
 
 var treemap = d3.treemap()
 	.tile(d3.treemapResquarify)
@@ -21,6 +23,9 @@ var tooltip = d3.select('body')
 var svgC = d3.select(".c svg");
 var MAX_SELECTED_PLANTS = 10;
 var selectedPlants = [];
+
+var widthC = +svgC.attr("width");
+var heightC = +svgC.attr("height");
 
 // Panel D : Voronoi
 
@@ -50,18 +55,24 @@ var t = d3.transition()
 
 // Data
 
-d3.csv("data/nutriments.csv", function (error, data) {
-	if (error) throw error;
+d3.csv("data/nutriments.csv", function (data) {
+	data.AvK = +data.AvK;
+	data.AvN = +data.AvN;
+	data.AvP = +data.AvP;
+	data.AvMoisture = +data.AvMoisture;
+	data.total = data.AvK + data.AvN + data.AvP + data.AvMoisture;
 
-	data.forEach(element => {
-		element.AvK = +element.AvK;
-		element.AvN = +element.AvN;
-		element.AvP = +element.AvP;
-		element.AvMoisture = +element.AvMoisture;
-	});
+	return data;
 
+}).then(function (data) {
 	initButtons(data);
 	displayTreemap(data, "AvK");
+
+	svgC.selectAll("g")
+	.data(d3.stack().keys(keys)(selectedPlants))
+  .enter().append("g")
+	.attr("fill", function (d) { return colors(d.key); });
+	//displayBarChart();
 });
 
 function updateVoronoi() {
@@ -71,8 +82,8 @@ function updateVoronoi() {
 		element.y = Math.random() * 400;
 	})
 
-	console.log(selectedPlants);
-	console.log(voronoi(selectedPlants).polygons());
+	//console.log(selectedPlants);
+	//console.log(voronoi(selectedPlants).polygons());
 
 	// transition‚
 	var t = d3.transition()
@@ -96,7 +107,7 @@ function updateVoronoi() {
 	path
 		.attr("d", function (d) { return d ? "M" + d.join("L") + "Z" : null; })
 		.style("fill", function (d) {
-			return mycolors(d.data.CropCategory);
+			return colors(d.data.CropCategory);
 		});
 
 	circle
@@ -108,7 +119,7 @@ function updateVoronoi() {
 		.attr("class", "voronoi")
 		.attr("d", function (d) { return d ? "M" + d.join("L") + "Z" : null; })
 		.style("fill", function (d) {
-			return mycolors(d.data.CropCategory);
+			return colors(d.data.CropCategory);
 		});
 
 	circle.enter().append("circle")
@@ -119,7 +130,7 @@ function updateVoronoi() {
 	simulation
 		.nodes(selectedPlants)
 		.force("charge", d3.forceManyBody().strength(function (d) {
-			console.log(-d.AvK * 10);
+			//console.log(-d.AvK * 10);
 			return -d.AvK * 10;
 		}))
 		//.force("collide", d3.forceCollide().strength(1).radius(function (d) { return d.AvK * 10 + nodePadding; }).iterations(10))
@@ -147,28 +158,44 @@ function updateVoronoi() {
 }
 
 function updatePlants() {
+	selectedPlants.sort(function (a, b) { return b.total - a.total; });
 
-	//console.log(selectedPlants)
+	svgC.selectAll("rect").data(d3.stack().keys(keys)(selectedPlants)).exit().remove();
 
-	plantWidth = +svgC.attr("width") / 5 - 10;
+	var t = d3.transition()
+		.duration(500)
 
-	var selection = svgC.selectAll("rect")
-		.data(selectedPlants);
-	selection.exit()
-		.remove();
+	let x = d3.scaleBand()
+		.rangeRound([0, widthC])
+		.paddingInner(0.05)
+		.align(0.1);
 
-	selection.enter()
-		.each(function (d) {
-			//console.log("Enter : " + d);
-		})
-		.append("rect")
-		.attr("x", function (d, i) {
-			return (i * (plantWidth + 10));
-		})
-		.attr("y", 0)
-		.attr("width", plantWidth)
-		.attr("height", 190)
-		.attr("fill", "#222");
+	let y = d3.scaleLinear()
+		.rangeRound([heightC, 0]);
+
+	x.domain(selectedPlants.map(function (d) { return d.Name; }));
+	y.domain([0, d3.max(selectedPlants, function (d) { return d.total; })]).nice();
+
+	console.log(d3.stack().keys(keys)(selectedPlants))
+
+	svgC.selectAll("g")
+		.data(d3.stack().keys(keys)(selectedPlants))
+		.selectAll("rect")
+		.data(function (d) { return d; })
+	  .enter().append("rect")
+		.attr("x", function (d) { return x(d.data.Name); })
+		.attr("y", function (d) { return y(d[1]); })
+		.attr("height", function (d) { return y(d[0]) - y(d[1]); })
+		.attr("width", x.bandwidth());
+
+	svgC.selectAll("g")
+		.data(d3.stack().keys(keys)(selectedPlants))
+		.selectAll("rect")
+		.data(function (d) { return d; })
+		.attr("x", function (d) { return x(d.data.Name); })
+		.attr("y", function (d) { return y(d[1]); })
+		.attr("height", function (d) { return y(d[0]) - y(d[1]); })
+		.attr("width", x.bandwidth());
 }
 
 function selectPlant(plant) {
@@ -193,7 +220,7 @@ function selectPlant(plant) {
 			return !selectedPlants.includes(d.data);
 		})
 		.attr("fill", function (d) {
-			return mycolors(d.data.CropCategory);
+			return colors(d.data.CropCategory);
 		});
 
 	updatePlants();
@@ -257,7 +284,7 @@ function displayTreemap(data, variable) {
 		.attr("width", function (d) { return d.x1 - d.x0; })
 		.attr("height", function (d) { return d.y1 - d.y0; })
 		.attr("fill", function (d) {
-			return mycolors(d.data.CropCategory);
+			return colors(d.data.CropCategory);
 		})
 		.on("mouseover", function (d) {
 			onMouseOver(d);
@@ -320,4 +347,80 @@ function onMouseOver(element) {
 
 function onMouseOut(element) {
 	tooltip.classed('hidden', true);
+}
+
+function displayBarChart() {
+
+	selectedPlants.sort(function (a, b) { return b.total - a.total; });
+
+	let x = d3.scaleBand()
+		.rangeRound([0, widthC])
+		.paddingInner(0.05)
+		.align(0.1);
+
+	let y = d3.scaleLinear()
+		.rangeRound([heightC, 0]);
+
+	x.domain(selectedPlants.map(function (d) { return d.Name; }));
+	y.domain([0, d3.max(selectedPlants, function (d) { return d.total; })]).nice();
+
+	/*colors.domain(keys);*/
+
+	/*svgC.append("g")
+		.attr("class", "axis")
+		.attr("transform", "translate(0," + heightC + ")")
+		.call(d3.axisBottom(x));*/
+
+	/*svgC.append("g")
+		.attr("class", "axis")
+		.call(d3.axisLeft(y).ticks(null, "s"))
+		.append("text")
+		.attr("x", 2)
+		.attr("y", y(y.ticks().pop()) + 0.5)
+		.attr("dy", "0.32em")
+		.attr("fill", "#000")
+		.attr("font-weight", "bold")
+		.attr("text-anchor", "start")
+		.text("Composition");*/
+
+	/*var legend = svgC.append("g")
+		.attr("font-family", "sans-serif")
+		.attr("font-size", 10)
+		.attr("text-anchor", "end")
+		.selectAll("g")
+		.data(keys.slice().reverse())
+		.enter().append("g")
+		.attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
+
+	legend.append("rect")
+		.attr("x", widthC - 19)
+		.attr("width", 19)
+		.attr("height", 19)
+		.attr("fill", colors)
+
+	legend.append("text")
+		.attr("x", widthC - 24)
+		.attr("y", 9.5)
+		.attr("dy", "0.32em")
+		.text(function (d) { return d; });*/
+
+	console.log(selectedPlants);
+
+	svgC.append("g")
+		.selectAll("g")
+		.data(d3.stack().keys(keys)(selectedPlants))
+		.enter().append("g")
+		.attr("fill", function (d) { return colors(d.key); })
+		.selectAll("rect")
+		.data(function (d) { return d; })
+		.enter().append("rect")
+		.attr("class", "bar")
+		.attr("x", function (d) { return x(d.data.Name); })
+		.attr("y", function (d) { return y(d[1]); })
+		.attr("height", function (d) { return y(d[0]) - y(d[1]); })
+		.attr("width", x.bandwidth());
+}
+
+function displayAxes() {
+
 }
