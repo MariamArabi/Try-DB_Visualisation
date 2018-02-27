@@ -118,8 +118,11 @@ function updateVoronoi() {
 
 	simulation
 		.nodes(selectedPlants)
-		//.force("charge", d3.forceManyBody().strength(-15))
-		.force("collide", d3.forceCollide().strength(1).radius(function (d) { return d.AvK * 10 + nodePadding; }).iterations(10))
+		.force("charge", d3.forceManyBody().strength(function (d) {
+			console.log(-d.AvK * 10);
+			return -d.AvK * 10;
+		}))
+		//.force("collide", d3.forceCollide().strength(1).radius(function (d) { return d.AvK * 10 + nodePadding; }).iterations(10))
 		.on("tick", function (d) {
 
 			circle = nodesGroup.selectAll("circle")
