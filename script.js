@@ -50,23 +50,29 @@ d3.dsv(",", "data/nutriments_petit.csv", function (data) {
     return data;
 
 }).then(function(data) {
-    data.sort(function(a, b) { return b.total - a.total; });
+    for (i of data) {
+        if (i.ScientificName) {
+            console.log(i.ScientificName);
+            selectedPlants.push(i);
+        }
+    }
+
 	initButtons(data);
 	displayTreemap(data, "AvK");
-    setGraph(data);
-    loadData(data);
+    setGraph(selectedPlants);
+    setBarChart(data);
 });
 
 function updatePlants(data) {
 
-	plantWidth = +svgC.attr("width") / 5 - 10;
+    data.sort(function(a, b) { return b.total - a.total; });
+    x.domain(data.map(function(d) { return d.Name; }));
+    y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
 
 	var selection = svgC.selectAll("rect")
 		.data(d3.stack().keys(keys)(data))
 
     selection.exit().remove();
-
-    console.log("data : ", data);
 
     g.append("g")
     .selectAll("g")
@@ -82,13 +88,14 @@ function updatePlants(data) {
         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
         .attr("width", x.bandwidth());
 
-        svgC.select(".x.axis") // change the x axis
-            .call(x);
-        svgC.select(".y.axis") // change the y axis
-            .call(y);
+    svgC.select(".x.axis") // change the x axis
+        .call(x);
+    svgC.select(".y.axis") // change the y axis
+        .call(y);
 }
 
-function loadData(data) {
+function setBarChart(data) {
+    data.sort(function(a, b) { return b.total - a.total; });
 
     g.append("g")
         .selectAll("g")
@@ -106,7 +113,7 @@ function loadData(data) {
 }
 
 function setGraph (data) {
-
+    data.sort(function(a, b) { return b.total - a.total; });
     x.domain(data.map(function(d) { return d.Name; }));
     y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
     colors.domain(keys);
