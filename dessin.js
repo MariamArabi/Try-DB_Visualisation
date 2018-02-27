@@ -5,6 +5,7 @@ var keys = ["AvMoisture", "AvN", "AvP", "AvK"];
 var svgA = d3.select(".a svg");
 
 var colors = d3.scaleOrdinal(["#66c2a5", "#fc8d62", "#8da0cb", "#e78ac3", "#a6d854", "#ffd92f"]);
+var colors2 = d3.scaleOrdinal(d3.schemePastel1);
 
 var treemap = d3.treemap()
 	.tile(d3.treemapResquarify)
@@ -67,12 +68,7 @@ d3.csv("data/nutriments.csv", function (data) {
 }).then(function (data) {
 	initButtons(data);
 	displayTreemap(data, "AvK");
-
-	svgC.selectAll("g")
-	.data(d3.stack().keys(keys)(selectedPlants))
-  .enter().append("g")
-	.attr("fill", function (d) { return colors(d.key); });
-	//displayBarChart();
+	displayBarChart();
 });
 
 function updateVoronoi() {
@@ -160,8 +156,6 @@ function updateVoronoi() {
 function updatePlants() {
 	selectedPlants.sort(function (a, b) { return b.total - a.total; });
 
-	svgC.selectAll("rect").data(d3.stack().keys(keys)(selectedPlants)).exit().remove();
-
 	var t = d3.transition()
 		.duration(500)
 
@@ -178,24 +172,30 @@ function updatePlants() {
 
 	console.log(d3.stack().keys(keys)(selectedPlants))
 
-	svgC.selectAll("g")
+	svgC.selectAll(".bar")
 		.data(d3.stack().keys(keys)(selectedPlants))
 		.selectAll("rect")
 		.data(function (d) { return d; })
 	  .enter().append("rect")
+		.attr("x", function (d) { console.log("caca");return x(d.data.Name); })
+		.attr("y", function (d) { return y(d[1]); })
+		.attr("height", function (d) { return y(d[0]) - y(d[1]); })
+		.attr("width", x.bandwidth());
+
+	svgC.selectAll(".bar")
+		.data(d3.stack().keys(keys)(selectedPlants))
+		.selectAll("rect")
+		.data(function (d) { console.log("coucou");return d; })
 		.attr("x", function (d) { return x(d.data.Name); })
 		.attr("y", function (d) { return y(d[1]); })
 		.attr("height", function (d) { return y(d[0]) - y(d[1]); })
 		.attr("width", x.bandwidth());
 
-	svgC.selectAll("g")
+	svgC.selectAll(".bar")
 		.data(d3.stack().keys(keys)(selectedPlants))
 		.selectAll("rect")
-		.data(function (d) { return d; })
-		.attr("x", function (d) { return x(d.data.Name); })
-		.attr("y", function (d) { return y(d[1]); })
-		.attr("height", function (d) { return y(d[0]) - y(d[1]); })
-		.attr("width", x.bandwidth());
+		.data(function (d) { console.log("prout");return d; })
+	.exit().remove()
 }
 
 function selectPlant(plant) {
@@ -351,6 +351,12 @@ function onMouseOut(element) {
 
 function displayBarChart() {
 
+	svgC.selectAll("g")
+		.data(d3.stack().keys(keys)(selectedPlants))
+		.enter().append("g")
+		.attr("class", "bar")
+		.attr("fill", function (d) { return colors2(d.key); });
+
 	selectedPlants.sort(function (a, b) { return b.total - a.total; });
 
 	let x = d3.scaleBand()
@@ -364,15 +370,15 @@ function displayBarChart() {
 	x.domain(selectedPlants.map(function (d) { return d.Name; }));
 	y.domain([0, d3.max(selectedPlants, function (d) { return d.total; })]).nice();
 
-	/*colors.domain(keys);*/
+	colors2.domain(keys);
 
-	/*svgC.append("g")
-		.attr("class", "axis")
+	svgC.append("g")
+		.attr("class", "axis x")
 		.attr("transform", "translate(0," + heightC + ")")
-		.call(d3.axisBottom(x));*/
+		.call(d3.axisBottom(x));
 
 	/*svgC.append("g")
-		.attr("class", "axis")
+		.attr("class", "axis y")
 		.call(d3.axisLeft(y).ticks(null, "s"))
 		.append("text")
 		.attr("x", 2)
