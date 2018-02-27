@@ -7,7 +7,7 @@ var colors = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
 
 var fader = function(color) { return d3.interpolateRgb(color, "#fff")(0.2); },
-    color = d3.scaleOrdinal(d3.schemeCategory20.map(fader)),
+    color = d3.scaleOrdinal(d3.schemeSet3.map(fader)),
     format = d3.format(",d");
 
 var treemap = d3.treemap()
@@ -22,16 +22,17 @@ var tooltip = d3.select('body')
 
 var selectedPlants = [];
 
-d3.csv("data/nutriments.csv", function (error, data) {
-    if (error) throw error;
+d3.dsv(",", "data/nutriments.csv", function (data) {
+    data.AvK = +data.AvK;
+    data.AvN = +data.AvN;
+    data.AvP = +data.AvP;
+    data.AvMoisture = +data.AvMoisture;
+    data.total = data.AvK + data.AvN + data.AvP;
 
-    data.forEach(element => {
-        element.AvK = +element.AvK;
-        element.AvN = +element.AvN;
-        element.AvP = +element.AvP;
-        element.AvMoisture = +element.AvMoisture;
-    });
+    return data;
 
+}).then(function(data) {
+    console.log(data);
 	initButtons(data);
 	displayTreemap(data, "AvK");
 });
@@ -39,7 +40,7 @@ d3.csv("data/nutriments.csv", function (error, data) {
 function updatePlants() {
 
 	console.log(selectedPlants)
-	
+
 	plantWidth = +svgC.attr("width") / 5 - 10;
 
 	var selection = svgC.selectAll("rect")
@@ -82,8 +83,8 @@ function selectPlant(plant) {
         .filter(function (d) {
             return !selectedPlants.includes(d.data);
         })
-        .attr("fill", function(d) { 
-            return color(d.parent.id); 
+        .attr("fill", function(d) {
+            return color(d.parent.id);
         });
 
     updatePlants();
@@ -137,7 +138,7 @@ function displayTreemap(data, variable) {
     var cell = svgA.selectAll("g")
         .data(root.leaves())
         .enter()
-        .append("g")      
+        .append("g")
         .attr("id", function(d) { return d.id })
         .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
 
@@ -145,8 +146,8 @@ function displayTreemap(data, variable) {
         .attr("id", function(d) { return d.id; })
         .attr("width", function(d) { return d.x1 - d.x0; })
         .attr("height", function(d) { return d.y1 - d.y0; })
-        .attr("fill", function(d) { 
-            return color(d.parent.id); 
+        .attr("fill", function(d) {
+            return color(d.parent.id);
         })
         .on("mouseover", function(d) {
             onMouseOver(d);
@@ -163,7 +164,7 @@ function displayTreemap(data, variable) {
         .on("click", function(d) {
             selectPlant(d.data);
         });
-    
+
     /*cell.append("text")
         .text(function(d) { return d.id; })
         .attr("y", function(d) { return 20; })
@@ -185,12 +186,12 @@ function updateTreemap(data, variable) {
 
     svgA.selectAll("g")
         .data(root.leaves())
-        .transition()        
+        .transition()
         .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
 
     svgA.selectAll("rect")
         .data(root.leaves())
-        .transition() 
+        .transition()
         .attr("width", function(d) { return d.x1 - d.x0; })
         .attr("height", function(d) { return d.y1 - d.y0; });
 }
