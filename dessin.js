@@ -72,9 +72,6 @@ function updatePlants() {
 
     x.domain(selectedPlants.map(function(d) { return d.Name; }));
     y.domain([0, d3.max(selectedPlants, function(d) { return d.total; })]).nice();
-    svg.select(".x")
-        .transition(t)
-        .call(xAxisCall)
 
     g.append("g")
       .attr("class", "axis")
