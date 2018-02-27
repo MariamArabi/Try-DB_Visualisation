@@ -146,14 +146,12 @@ function setGraph (data) {
       .attr("width", 19)
       .attr("height", 19)
       .attr("fill", colors)
-      .on("click", updateData);
 
     legend.append("text")
       .attr("x", width - 24)
       .attr("y", 9.5)
       .attr("dy", "0.32em")
       .text(function(d) { return d; });
-
 }
 
 function selectPlant(plant) {
