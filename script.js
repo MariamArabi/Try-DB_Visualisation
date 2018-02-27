@@ -1,10 +1,28 @@
 var MAX_SELECTED_PLANTS = 5;
+var keys = ["AvMoisture", "AvN", "AvP", "AvK"];
 
 var svgA = d3.select(".a svg");
 var svgC = d3.select(".c svg");
+var margin = { top: 20, right: 20, bottom: 30, left: 40 };
+var width = +svgC.attr("width") - margin.left - margin.right;
+var height = +svgC.attr("height") - margin.top - margin.bottom;
+
+//Variables Dan
+g = svgC.append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+var x = d3.scaleBand()
+    .rangeRound([0, width])
+    .paddingInner(0.05)
+    .align(0.1);
+
+var y = d3.scaleLinear()
+    .rangeRound([height, 0]);
 
 var colors = d3.scaleOrdinal()
     .range(["#98abc5", "#8a89a6", "#7b6888", "#6b486b", "#a05d56", "#d0743c", "#ff8c00"]);
+
+//Fin variables Dan
 
 var fader = function(color) { return d3.interpolateRgb(color, "#fff")(0.2); },
     color = d3.scaleOrdinal(d3.schemeSet3.map(fader)),
@@ -22,44 +40,120 @@ var tooltip = d3.select('body')
 
 var selectedPlants = [];
 
-d3.dsv(",", "data/nutriments.csv", function (data) {
+d3.dsv(",", "data/nutriments_petit.csv", function (data) {
     data.AvK = +data.AvK;
     data.AvN = +data.AvN;
     data.AvP = +data.AvP;
     data.AvMoisture = +data.AvMoisture;
-    data.total = data.AvK + data.AvN + data.AvP;
+    data.total = data.AvK + data.AvN + data.AvP + data.AvMoisture;
 
     return data;
 
 }).then(function(data) {
-    console.log(data);
+    data.sort(function(a, b) { return b.total - a.total; });
 	initButtons(data);
 	displayTreemap(data, "AvK");
+    setGraph(data);
+    loadData(data);
 });
 
-function updatePlants() {
-
-	console.log(selectedPlants)
+function updatePlants(data) {
 
 	plantWidth = +svgC.attr("width") / 5 - 10;
 
 	var selection = svgC.selectAll("rect")
-		.data(selectedPlants);
-		selection.exit()
-		.remove();
+		.data(d3.stack().keys(keys)(data))
 
-	selection.enter()
-		.each( function(d) {
-			console.log("Enter : " + d);
-		})
-		.append("rect")
-        .attr("x", function(d, i) {
-            return (i * (plantWidth + 10));
-        })
-        .attr("y", 0)
-        .attr("width" , plantWidth)
-        .attr("height", 190)
-		.attr("fill", "#000");
+    selection.exit().remove();
+
+    console.log("data : ", data);
+
+    g.append("g")
+    .selectAll("g")
+    .data(d3.stack().keys(keys)(data))
+    .enter().append("g")
+        .attr("fill", function(d) { return colors(d.key); })
+    .selectAll("rect")
+    .data(function(d) { return d; })
+    .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.data.Name);})
+        .attr("y", function(d) { return y(d[1]); })
+        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+        .attr("width", x.bandwidth());
+
+        svgC.select(".x.axis") // change the x axis
+            .call(x);
+        svgC.select(".y.axis") // change the y axis
+            .call(y);
+}
+
+function loadData(data) {
+
+    g.append("g")
+        .selectAll("g")
+    .data(d3.stack().keys(keys)(data))
+        .enter().append("g")
+        .attr("fill", function(d) { return colors(d.key); })
+        .selectAll("rect")
+    .data(function(d) { return d; })
+        .enter().append("rect")
+        .attr("class", "bar")
+        .attr("x", function(d) { return x(d.data.Name);})
+        .attr("y", function(d) { return y(d[1]); })
+        .attr("height", function(d) { return y(d[0]) - y(d[1]); })
+        .attr("width", x.bandwidth());
+}
+
+function setGraph (data) {
+
+    x.domain(data.map(function(d) { return d.Name; }));
+    y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+    colors.domain(keys);
+
+    /*------------       Axe horizontal       ------------*/
+    g.append("g")
+      .attr("class", "axis")
+      .attr("transform", "translate(0," + height + ")")
+      .call(d3.axisBottom(x));
+
+      /*------------       Axe vertical       ------------*/
+    g.append("g")
+      .attr("class", "axis")
+      .call(d3.axisLeft(y).ticks(null, "s"))
+    .append("text")
+      .attr("x", 2)
+      .attr("y", y(y.ticks().pop()) + 0.5)
+      .attr("dy", "0.32em")
+      .attr("fill", "#000")
+      .attr("font-weight", "bold")
+      .attr("text-anchor", "start")
+      .text("Composition");
+
+      /*------------       Légende       ------------*/
+    var legend = g.append("g")
+      .attr("font-family", "sans-serif")
+      .attr("font-size", 10)
+      .attr("text-anchor", "end")
+    .selectAll("g")
+    .data(keys.slice().reverse())
+    .enter().append("g")
+      .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
+
+
+    legend.append("rect")
+      .attr("x", width - 19)
+      .attr("width", 19)
+      .attr("height", 19)
+      .attr("fill", colors)
+      .on("click", updateData);
+
+    legend.append("text")
+      .attr("x", width - 24)
+      .attr("y", 9.5)
+      .attr("dy", "0.32em")
+      .text(function(d) { return d; });
+
 }
 
 function selectPlant(plant) {
@@ -87,7 +181,7 @@ function selectPlant(plant) {
             return color(d.parent.id);
         });
 
-    updatePlants();
+    updatePlants(selectedPlants);
 }
 
 function initButtons(data) {

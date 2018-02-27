@@ -1,0 +1,14 @@
+Name,ScientificName,PlantPartHarvested,CropCategory,AvMoisture,AvN,AvP,AvK
+Plants,,,,,,,
+Vegetable,,,Plants,,,,
+Forage,,,Plants,,,,
+Fiber and miscellaneous,,,Plants,,,,
+Tree and fruit,,,Plants,,,,
+Cereal and oil,,,Plants,,,,
+Laitue romaine,Lactuca sativa var. longifolia,Head,Vegetable,94.00,4.27,0.75,6.67
+Betterave commune,Beta vulgaris,Crown and aboveground biomass,Fiber and miscellaneous,83.03,2.43,0.23,5.79
+Radis chinois,Raphanus sativus,Root,Vegetable,94.00,2.93,0.47,4.67
+Trefle incarnat,Trifolium incarnatum,Aboveground biomass,Forage,80.78,2.74,0.28,3.10
+Navet, Brassica rapa var. rapa,Aboveground biomass,Forage,86.53,3.30,0.42,3.02
+Lotier cornicule,Lotus corniculatus,Aboveground biomass,Forage,78.00,2.63,0.27,2.98
+Canne à sucre,Saccharum sp.,Leaf,Fiber and miscellaneous,73.83,0.87,0.24,2.96
