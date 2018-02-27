@@ -1,3 +1,6 @@
+var BORDER_CHARGE = 2;
+var PARTICLE_CHARGE = 2;
+
 var keys = ["AvMoisture", "AvN", "AvP", "AvK"];
 
 // Panel A : Treemap
@@ -35,9 +38,9 @@ var heightD = +svgD.attr("height");
 var nodePadding = 2.5;
 
 var simulation = d3.forceSimulation()
-	.force("forceX", d3.forceX().strength(.01).x(widthD * .5))
-	.force("forceY", d3.forceY().strength(.01).y(heightD * .5))
-	.force("center", d3.forceCenter().x(widthD * .5).y(heightD * .5));
+	.force("forceX", d3.forceX().strength(0.01 * BORDER_CHARGE).x(widthD * .5))
+	.force("forceY", d3.forceY().strength(.015 * BORDER_CHARGE).y(heightD * .5));
+	//.force("center", d3.forceCenter().x(widthD * .5).y(heightD * .5));
 
 var voronoi = d3.voronoi()
 	.extent([[0, 0], [widthD, heightD]])
@@ -78,12 +81,9 @@ d3.csv("data/nutriments.csv", function (data) {
 function updateVoronoi() {
 
 	selectedPlants.forEach(element => {
-		element.x = Math.random() * 600;
-		element.y = Math.random() * 400;
+		element.x = widthD * .5 + Math.random() * 5;
+		element.y = heightD * .5 + Math.random() * 5;
 	})
-
-	//console.log(selectedPlants);
-	//console.log(voronoi(selectedPlants).polygons());
 
 	// transition‚
 	var t = d3.transition()
@@ -130,18 +130,16 @@ function updateVoronoi() {
 	simulation
 		.nodes(selectedPlants)
 		.force("charge", d3.forceManyBody().strength(function (d) {
-			//console.log(-d.AvK * 10);
-			return -d.AvK * 10;
+			return -d.AvMoisture * PARTICLE_CHARGE;
 		}))
-		//.force("collide", d3.forceCollide().strength(1).radius(function (d) { return d.AvK * 10 + nodePadding; }).iterations(10))
 		.on("tick", function (d) {
 
 			circle = nodesGroup.selectAll("circle")
 				.data(selectedPlants, function (d) { return d.Name; });
 
 			circle
-				.attr("cx", function (d) { return d.x; })
-				.attr("cy", function (d) { return d.y; });
+				.attr("cx", function (d) { return Math.max(5, Math.min(widthD - 5, d.x)); })
+				.attr("cy", function (d) { return Math.max(5, Math.min(widthD - 5, d.y)); });
 
 			voronoi
 				.x(function (d) { return d.x; })
