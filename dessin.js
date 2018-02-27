@@ -1,4 +1,4 @@
-var MAX_SELECTED_PLANTS = 5;
+var MAX_SELECTED_PLANTS = 10;
 var keys = ["AvMoisture", "AvN", "AvP", "AvK"];
 
 var svgA = d3.select(".a svg");
@@ -52,31 +52,45 @@ d3.dsv(",", "data/nutriments_petit.csv", function (data) {
 }).then(function(data) {
     for (i of data) {
         if (i.ScientificName) {
-            console.log(i.ScientificName);
             selectedPlants.push(i);
         }
     }
 
 	initButtons(data);
 	displayTreemap(data, "AvK");
-    setGraph(selectedPlants);
-    setBarChart(data);
+    displayBarChart(selectedPlants);
 });
 
-function updatePlants(data) {
+function updatePlants() {
 
-    data.sort(function(a, b) { return b.total - a.total; });
-    x.domain(data.map(function(d) { return d.Name; }));
-    y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
+    selectedPlants.sort(function(a, b) { return b.total - a.total; });
 
-	var selection = svgC.selectAll("rect")
-		.data(d3.stack().keys(keys)(data))
+    svgC.selectAll("rect").data(d3.stack().keys(keys)(selectedPlants)).exit().remove();
 
-    selection.exit().remove();
+    var t = d3.transition()
+        .duration(500)
+
+    x.domain(selectedPlants.map(function(d) { return d.Name; }));
+    y.domain([0, d3.max(selectedPlants, function(d) { return d.total; })]).nice();
+    svg.select(".x")
+        .transition(t)
+        .call(xAxisCall)
+
+    g.append("g")
+      .attr("class", "axis")
+      .call(d3.axisLeft(y).ticks(null, "s"))
+    .append("text")
+      .attr("x", 2)
+      .attr("y", y(y.ticks().pop()) + 0.5)
+      .attr("dy", "0.32em")
+      .attr("fill", "#000")
+      .attr("font-weight", "bold")
+      .attr("text-anchor", "start")
+      .text("Composition");
 
     g.append("g")
     .selectAll("g")
-    .data(d3.stack().keys(keys)(data))
+    .data(d3.stack().keys(keys)(selectedPlants))
     .enter().append("g")
         .attr("fill", function(d) { return colors(d.key); })
     .selectAll("rect")
@@ -87,14 +101,11 @@ function updatePlants(data) {
         .attr("y", function(d) { return y(d[1]); })
         .attr("height", function(d) { return y(d[0]) - y(d[1]); })
         .attr("width", x.bandwidth());
-
-    svgC.select(".x.axis") // change the x axis
-        .call(x);
-    svgC.select(".y.axis") // change the y axis
-        .call(y);
 }
 
-function setBarChart(data) {
+function displayBarChart(data) {
+    displayGraph(selectedPlants);
+
     data.sort(function(a, b) { return b.total - a.total; });
 
     g.append("g")
@@ -112,7 +123,7 @@ function setBarChart(data) {
         .attr("width", x.bandwidth());
 }
 
-function setGraph (data) {
+function displayGraph (data) {
     data.sort(function(a, b) { return b.total - a.total; });
     x.domain(data.map(function(d) { return d.Name; }));
     y.domain([0, d3.max(data, function(d) { return d.total; })]).nice();
@@ -124,7 +135,7 @@ function setGraph (data) {
       .attr("transform", "translate(0," + height + ")")
       .call(d3.axisBottom(x));
 
-      /*------------       Axe vertical       ------------*/
+    /*------------       Axe vertical       ------------*/
     g.append("g")
       .attr("class", "axis")
       .call(d3.axisLeft(y).ticks(null, "s"))
@@ -138,6 +149,7 @@ function setGraph (data) {
       .text("Composition");
 
       /*------------       Légende       ------------*/
+
     var legend = g.append("g")
       .attr("font-family", "sans-serif")
       .attr("font-size", 10)
@@ -146,7 +158,6 @@ function setGraph (data) {
     .data(keys.slice().reverse())
     .enter().append("g")
       .attr("transform", function(d, i) { return "translate(0," + i * 20 + ")"; });
-
 
     legend.append("rect")
       .attr("x", width - 19)
@@ -186,7 +197,7 @@ function selectPlant(plant) {
             return color(d.parent.id);
         });
 
-    updatePlants(selectedPlants);
+    updatePlants();
 }
 
 function initButtons(data) {
