@@ -109,7 +109,7 @@ function updateVoronoi() {
 
 	circle
 		.attr("cx", function (d) { return d.x; })
-		.attr("cy", function (d) { return d.y; })		
+		.attr("cy", function (d) { return d.y; })
 		.on("mouseover", function (d) {
 			console.log(d)
 			onMouseOver(d);
@@ -422,7 +422,7 @@ function displayBarChart() {
 		.attr("text-anchor", "start")
 		.text("Composition");*/
 
-	/*var legend = svgC.append("g")
+	var legend = svgC.append("g")
 		.attr("font-family", "sans-serif")
 		.attr("font-size", 10)
 		.attr("text-anchor", "end")
