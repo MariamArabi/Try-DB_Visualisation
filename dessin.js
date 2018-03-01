@@ -1,4 +1,4 @@
-var BORDER_CHARGE = 3;
+var BORDER_CHARGE = 4;
 var PARTICLE_CHARGE = 0.1;
 var PARTICLE_CHARGE_POW = 2;
 
@@ -142,7 +142,7 @@ function updateVoronoi() {
         .attr("y", function(d) { return 20; })
         .attr("x", function(d) { return 5; });
 
-	simulation.alphaDecay(0.000001);
+	simulation.alphaDecay(0.0001);
 
 	simulation
 		.nodes(selectedPlants)
@@ -160,8 +160,8 @@ function updateVoronoi() {
 				.attr("cy", function (d) { return Math.max(35, Math.min(heightD - 35, d.y)); });
 
 			voronoi
-				.x(function (d) { return d.x; })
-				.y(function (d) { return d.y; });
+				.x(function (d) { return Math.max(35, Math.min(widthD - 35, d.x)); })
+				.y(function (d) { return Math.max(35, Math.min(heightD - 35, d.y)); });
 
 			path = voronoiGroup.selectAll("path")
 				.data(voronoi(selectedPlants).polygons());
@@ -457,7 +457,7 @@ function displayBarChart() {
 		.attr("x", widthC - 24)
 		.attr("y", 9.5)
 		.attr("dy", "0.32em")
-		.text(function (d) { return d; });*/
+		.text(function (d) { return d; });
 
 	console.log(selectedPlants);
 
