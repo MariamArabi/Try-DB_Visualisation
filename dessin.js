@@ -57,6 +57,10 @@ var nodesGroup = svgD.append("g")
 var t = d3.transition()
 	.duration(750);
 
+// Panel E : Butons
+
+var svgE = d3.select(".e svg");
+
 // Data
 
 d3.csv("data/nutriments.csv", function (data) {
@@ -451,7 +455,7 @@ function displayBarChart() {
 		.attr("x", widthC - 19)
 		.attr("width", 19)
 		.attr("height", 19)
-		.attr("fill", colors)
+		.attr("fill", colors2)
 
 	legend.append("text")
 		.attr("x", widthC - 24)
