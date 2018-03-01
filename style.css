@@ -35,7 +35,7 @@ text {
 .box {
 	/*  background-color: rgb(223, 223, 223);*/
 	/*border: 1px solid #222;*/
-	font-size: 150%;
+	font-size: 100%;
 }
 
 .a {
@@ -56,4 +56,22 @@ text {
 .d {
 	grid-column: 2;
 	grid-row: 2 / 4;
+}
+
+button {
+	cursor: pointer;
+	border-radius: 5px;
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+	padding: 5px 16px;
+	margin: 0.1em;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+button:hover {
+	background-color: rgb(107, 201, 110);
 }

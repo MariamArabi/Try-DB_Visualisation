@@ -88,7 +88,14 @@ function updateVoronoi() {
 		.data(voronoi(selectedPlants).polygons());
 
 	circle = nodesGroup.selectAll("circle")
-		.data(selectedPlants, function (d) { return d.Name; });
+		.data(selectedPlants, function (d) { return d.Name; })
+		.on("mouseover", function (d) {
+			console.log(d)
+			onMouseOver(d);
+		})
+		.on("mouseout", function (d) {
+			onMouseOut(d);
+		});
 
 	// EXIT
 	path.exit().remove();
@@ -102,7 +109,14 @@ function updateVoronoi() {
 
 	circle
 		.attr("cx", function (d) { return d.x; })
-		.attr("cy", function (d) { return d.y; });
+		.attr("cy", function (d) { return d.y; })		
+		.on("mouseover", function (d) {
+			console.log(d)
+			onMouseOver(d);
+		})
+		.on("mouseout", function (d) {
+			onMouseOut(d);
+		});
 
 	// ENTER
 	path.enter().append("path")
@@ -122,7 +136,11 @@ function updateVoronoi() {
 		.style("fill", function (d) {
 			console.log(d);
 			return colors(d.CropCategory);
-		});
+		})
+		.append("text")
+        .text(function(d) { return d.Name; })
+        .attr("y", function(d) { return 20; })
+        .attr("x", function(d) { return 5; });
 
 	simulation.alphaDecay(0.000001);
 
@@ -237,15 +255,13 @@ function selectPlant(plant) {
 		.filter(function (d) {
 			return selectedPlants.includes(d.data);
 		})
-		.attr("fill", "red");
+		.style("opacity", "0.4");
 
 	svgA.selectAll("rect")
 		.filter(function (d) {
 			return !selectedPlants.includes(d.data);
 		})
-		.attr("fill", function (d) {
-			return colors(d.data.CropCategory);
-		});
+		.style("opacity", "1");
 
 	updatePlants();
 	updateVoronoi();
@@ -312,24 +328,18 @@ function displayTreemap(data, variable) {
 		})
 		.on("mouseover", function (d) {
 			onMouseOver(d);
-
-			d3.select(this)
-				.style("opacity", "0.5");
 		})
 		.on("mouseout", function (d) {
 			onMouseOut(d);
-
-			d3.select(this)
-				.style("opacity", "1.0");
 		})
 		.on("click", function (d) {
 			selectPlant(d.data);
 		});
 
-    /*cell.append("text")
+    cell.append("text")
         .text(function(d) { return d.id; })
         .attr("y", function(d) { return 20; })
-        .attr("x", function(d) { return 5; });*/
+        .attr("x", function(d) { return 5; });
 }
 
 function updateTreemap(data, variable) {
@@ -364,8 +374,7 @@ function onMouseOver(element) {
 	});
 
 	tooltip.classed('hidden', false)
-		.attr('style', 'left:' + (mouse[0] + 15) +
-			'px; top:' + (mouse[1] - 35) + 'px')
+		.attr('style', 'left:' + (mouse[0] + 15) + 'px; top:' + (mouse[1] - 35) + 'px')
 		.html(element.id);
 }
 
