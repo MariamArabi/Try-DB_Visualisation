@@ -75,3 +75,7 @@ button {
 button:hover {
 	background-color: rgb(107, 201, 110);
 }
+
+#explications {
+	text-align: center;
+}

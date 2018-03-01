@@ -263,8 +263,24 @@ function selectPlant(plant) {
 		})
 		.style("opacity", "1");
 
+	if (selectedPlants.length == 0) {
+		showExplications();
+	} else {
+		hideExplications();
+	}
+
 	updatePlants();
 	updateVoronoi();
+}
+
+function showExplications() {
+	var parent = document.getElementById("explications");
+	parent.innerText = "Try Projet"
+}
+
+function hideExplications() {
+	var parent = document.getElementById("explications");
+	parent.innerText = ""
 }
 
 function initButtons(data) {
