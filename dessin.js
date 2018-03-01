@@ -60,6 +60,8 @@ var t = d3.transition()
 // Panel E : Butons
 
 var svgE = d3.select(".e svg");
+var widthE = +svgE.attr("width");
+var heightE = +svgE.attr("height");
 
 // Data
 
@@ -442,7 +444,7 @@ function displayBarChart() {
 		.attr("text-anchor", "start")
 		.text("Composition");*/
 
-	var legend = svgC.append("g")
+	var legend = svgE.append("g")
 		.attr("font-family", "sans-serif")
 		.attr("font-size", 10)
 		.attr("text-anchor", "end")
@@ -452,13 +454,13 @@ function displayBarChart() {
 		.attr("transform", function (d, i) { return "translate(0," + i * 20 + ")"; });
 
 	legend.append("rect")
-		.attr("x", widthC - 19)
+		.attr("x", widthE - 19)
 		.attr("width", 19)
 		.attr("height", 19)
 		.attr("fill", colors2)
 
 	legend.append("text")
-		.attr("x", widthC - 24)
+		.attr("x", widthE - 24)
 		.attr("y", 9.5)
 		.attr("dy", "0.32em")
 		.text(function (d) { return d; });
